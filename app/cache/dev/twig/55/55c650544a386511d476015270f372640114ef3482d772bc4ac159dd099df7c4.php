@@ -15,8 +15,13 @@ class __TwigTemplate_e78637e275ae906a960e4d7c0d73bdda5224a4914be76ef766089531658
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_d515ffcfe67bafac54e6da1776b651687f617378010a41545e1d772a6579f940 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_d515ffcfe67bafac54e6da1776b651687f617378010a41545e1d772a6579f940->enter($__internal_d515ffcfe67bafac54e6da1776b651687f617378010a41545e1d772a6579f940_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/FormTable/hidden_row.html.php"));
+=======
+        $__internal_129acd5a5cf66c648b495150a46adb0c40422ec3a97e0a175fb14bbd73ab5b6e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_129acd5a5cf66c648b495150a46adb0c40422ec3a97e0a175fb14bbd73ab5b6e->enter($__internal_129acd5a5cf66c648b495150a46adb0c40422ec3a97e0a175fb14bbd73ab5b6e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/FormTable/hidden_row.html.php"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<tr style=\"display: none\">
@@ -26,7 +31,11 @@ class __TwigTemplate_e78637e275ae906a960e4d7c0d73bdda5224a4914be76ef766089531658
 </tr>
 ";
         
+<<<<<<< HEAD
         $__internal_d515ffcfe67bafac54e6da1776b651687f617378010a41545e1d772a6579f940->leave($__internal_d515ffcfe67bafac54e6da1776b651687f617378010a41545e1d772a6579f940_prof);
+=======
+        $__internal_129acd5a5cf66c648b495150a46adb0c40422ec3a97e0a175fb14bbd73ab5b6e->leave($__internal_129acd5a5cf66c648b495150a46adb0c40422ec3a97e0a175fb14bbd73ab5b6e_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -55,6 +64,10 @@ class __TwigTemplate_e78637e275ae906a960e4d7c0d73bdda5224a4914be76ef766089531658
         <?php echo \$view['form']->widget(\$form) ?>
     </td>
 </tr>
+<<<<<<< HEAD
 ", "@Framework/FormTable/hidden_row.html.php", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/FormTable/hidden_row.html.php");
+=======
+", "@Framework/FormTable/hidden_row.html.php", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/FormTable/hidden_row.html.php");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

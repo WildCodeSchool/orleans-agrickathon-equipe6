@@ -21,20 +21,34 @@ class __TwigTemplate_41bebb36ee667ef512ce24f7a88369235bc17b0a55488b2e2ca64d1d3fb
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_e6d91d349305ffb77c47cb6cf35d250b2b623d9b02fe7e910196f0e4252369f1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_e6d91d349305ffb77c47cb6cf35d250b2b623d9b02fe7e910196f0e4252369f1->enter($__internal_e6d91d349305ffb77c47cb6cf35d250b2b623d9b02fe7e910196f0e4252369f1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Resetting/checkEmail.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
         $__internal_e6d91d349305ffb77c47cb6cf35d250b2b623d9b02fe7e910196f0e4252369f1->leave($__internal_e6d91d349305ffb77c47cb6cf35d250b2b623d9b02fe7e910196f0e4252369f1_prof);
+=======
+        $__internal_e032703b42800510fb941e90af392c20f9ec56f8f6345bae605da98e62e76174 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e032703b42800510fb941e90af392c20f9ec56f8f6345bae605da98e62e76174->enter($__internal_e032703b42800510fb941e90af392c20f9ec56f8f6345bae605da98e62e76174_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Resetting/checkEmail.html.twig"));
+
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_e032703b42800510fb941e90af392c20f9ec56f8f6345bae605da98e62e76174->leave($__internal_e032703b42800510fb941e90af392c20f9ec56f8f6345bae605da98e62e76174_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
     // line 3
     public function block_fos_user_content($context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_8e6fd4efb27e55ebb728d476edf6470c3cd3ec2c371595ccf99195c559e6124a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_8e6fd4efb27e55ebb728d476edf6470c3cd3ec2c371595ccf99195c559e6124a->enter($__internal_8e6fd4efb27e55ebb728d476edf6470c3cd3ec2c371595ccf99195c559e6124a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "@FOSUser/Resetting/checkEmail.html.twig"));
+=======
+        $__internal_a0be9aa5922ca9f890375fffb90baf37e6f164dd2d34c326eb4452b0cce977da = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a0be9aa5922ca9f890375fffb90baf37e6f164dd2d34c326eb4452b0cce977da->enter($__internal_a0be9aa5922ca9f890375fffb90baf37e6f164dd2d34c326eb4452b0cce977da_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "@FOSUser/Resetting/checkEmail.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 4
         echo "<p>
@@ -45,7 +59,11 @@ class __TwigTemplate_41bebb36ee667ef512ce24f7a88369235bc17b0a55488b2e2ca64d1d3fb
 </p>
 ";
         
+<<<<<<< HEAD
         $__internal_8e6fd4efb27e55ebb728d476edf6470c3cd3ec2c371595ccf99195c559e6124a->leave($__internal_8e6fd4efb27e55ebb728d476edf6470c3cd3ec2c371595ccf99195c559e6124a_prof);
+=======
+        $__internal_a0be9aa5922ca9f890375fffb90baf37e6f164dd2d34c326eb4452b0cce977da->leave($__internal_a0be9aa5922ca9f890375fffb90baf37e6f164dd2d34c326eb4452b0cce977da_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -81,6 +99,10 @@ class __TwigTemplate_41bebb36ee667ef512ce24f7a88369235bc17b0a55488b2e2ca64d1d3fb
 {{ 'resetting.check_email'|trans({'%email%': email}, 'FOSUserBundle') }}
 </p>
 {% endblock %}
+<<<<<<< HEAD
 ", "@FOSUser/Resetting/checkEmail.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Resetting/checkEmail.html.twig");
+=======
+", "@FOSUser/Resetting/checkEmail.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Resetting/checkEmail.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

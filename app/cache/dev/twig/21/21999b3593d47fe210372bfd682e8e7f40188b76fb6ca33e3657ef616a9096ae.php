@@ -15,8 +15,13 @@ class __TwigTemplate_37087b6189127687962030324a142ccc710229f9b1b34ab9b6f1f46af31
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_17495a47fcfa3c797c810eff76a0f8f09f0996b4b9f08f06efbf18725f3e69c1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_17495a47fcfa3c797c810eff76a0f8f09f0996b4b9f08f06efbf18725f3e69c1->enter($__internal_17495a47fcfa3c797c810eff76a0f8f09f0996b4b9f08f06efbf18725f3e69c1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppCmsBundle:Default:index.html.twig"));
+=======
+        $__internal_735891759c802dbd444888679431180674cf2f82346fb3d98faa847b612702b0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_735891759c802dbd444888679431180674cf2f82346fb3d98faa847b612702b0->enter($__internal_735891759c802dbd444888679431180674cf2f82346fb3d98faa847b612702b0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppCmsBundle:Default:index.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<html>
@@ -251,7 +256,11 @@ class __TwigTemplate_37087b6189127687962030324a142ccc710229f9b1b34ab9b6f1f46af31
 </script>
 ";
         
+<<<<<<< HEAD
         $__internal_17495a47fcfa3c797c810eff76a0f8f09f0996b4b9f08f06efbf18725f3e69c1->leave($__internal_17495a47fcfa3c797c810eff76a0f8f09f0996b4b9f08f06efbf18725f3e69c1_prof);
+=======
+        $__internal_735891759c802dbd444888679431180674cf2f82346fb3d98faa847b612702b0->leave($__internal_735891759c802dbd444888679431180674cf2f82346fb3d98faa847b612702b0_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -280,6 +289,7 @@ class __TwigTemplate_37087b6189127687962030324a142ccc710229f9b1b34ab9b6f1f46af31
 
     public function getSourceContext()
     {
+<<<<<<< HEAD
         return new Twig_Source("<html>
 
 <head>
@@ -492,5 +502,9 @@ class __TwigTemplate_37087b6189127687962030324a142ccc710229f9b1b34ab9b6f1f46af31
     });
 </script>
 ", "SfWebAppCmsBundle:Default:index.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/src/SfWebApp/CmsBundle/Resources/views/Default/index.html.twig");
+=======
+        return new Twig_Source("Hello World!
+", "SfWebAppCmsBundle:Default:index.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/CmsBundle/Resources/views/Default/index.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

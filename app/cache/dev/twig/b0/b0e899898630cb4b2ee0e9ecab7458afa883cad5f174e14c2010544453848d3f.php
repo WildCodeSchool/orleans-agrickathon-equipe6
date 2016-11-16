@@ -15,8 +15,13 @@ class __TwigTemplate_224db3102ea715c7aa9ac60227bbd95c9bb15c2844418e1a37d79ad6e3b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_f3ccf0299e0ffc2488b2c5e100dbb7d7316b3621feb102f6bcc2b9b7b5d1b377 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_f3ccf0299e0ffc2488b2c5e100dbb7d7316b3621feb102f6bcc2b9b7b5d1b377->enter($__internal_f3ccf0299e0ffc2488b2c5e100dbb7d7316b3621feb102f6bcc2b9b7b5d1b377_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:profiler.css.twig"));
+=======
+        $__internal_73c91bf8e3521d8115864dce640de96d75e10f6eb7c2c1f8053d3a2d344e925d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_73c91bf8e3521d8115864dce640de96d75e10f6eb7c2c1f8053d3a2d344e925d->enter($__internal_73c91bf8e3521d8115864dce640de96d75e10f6eb7c2c1f8053d3a2d344e925d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:profiler.css.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 3
         $context["mixins"] = array("break_long_words" => "-ms-word-break: break-all; word-break: break-all; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;", "monospace_font" => "font-family: monospace; font-size: 13px; font-size-adjust: 0.5;", "sans_serif_font" => "font-family: Helvetica, Arial, sans-serif;", "subtle_border_and_shadow" => "background: #FFF; border: 1px solid #E0E0E0; box-shadow: 0px 0px 1px rgba(128, 128, 128, .2);");
@@ -1062,7 +1067,11 @@ table.logs .sf-call-stack abbr {
 }
 ";
         
+<<<<<<< HEAD
         $__internal_f3ccf0299e0ffc2488b2c5e100dbb7d7316b3621feb102f6bcc2b9b7b5d1b377->leave($__internal_f3ccf0299e0ffc2488b2c5e100dbb7d7316b3621feb102f6bcc2b9b7b5d1b377_prof);
+=======
+        $__internal_73c91bf8e3521d8115864dce640de96d75e10f6eb7c2c1f8053d3a2d344e925d->leave($__internal_73c91bf8e3521d8115864dce640de96d75e10f6eb7c2c1f8053d3a2d344e925d_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -2068,6 +2077,10 @@ table.logs .sf-call-stack abbr {
         margin-left: 2px;
     }
 }
+<<<<<<< HEAD
 ", "WebProfilerBundle:Profiler:profiler.css.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/profiler.css.twig");
+=======
+", "WebProfilerBundle:Profiler:profiler.css.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/profiler.css.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

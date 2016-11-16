@@ -15,8 +15,13 @@ class __TwigTemplate_3af0cb6a47ec1cf93defe4557c0a80725e59cbf951393eb1a1504bc2ea0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_0eaf678d687d9cc6db37ce85cfdf794409093cc99bbae55ea52411b5f7d19196 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_0eaf678d687d9cc6db37ce85cfdf794409093cc99bbae55ea52411b5f7d19196->enter($__internal_0eaf678d687d9cc6db37ce85cfdf794409093cc99bbae55ea52411b5f7d19196_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.html.twig"));
+=======
+        $__internal_0cd013e660832a5cfee2cd80bf44b0c7f4a7a2e1ed8920270d707489ec0ac0fe = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0cd013e660832a5cfee2cd80bf44b0c7f4a7a2e1ed8920270d707489ec0ac0fe->enter($__internal_0cd013e660832a5cfee2cd80bf44b0c7f4a7a2e1ed8920270d707489ec0ac0fe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<div class=\"block-exception\">
@@ -235,7 +240,11 @@ class __TwigTemplate_3af0cb6a47ec1cf93defe4557c0a80725e59cbf951393eb1a1504bc2ea0
 //]]></script>
 ";
         
+<<<<<<< HEAD
         $__internal_0eaf678d687d9cc6db37ce85cfdf794409093cc99bbae55ea52411b5f7d19196->leave($__internal_0eaf678d687d9cc6db37ce85cfdf794409093cc99bbae55ea52411b5f7d19196_prof);
+=======
+        $__internal_0cd013e660832a5cfee2cd80bf44b0c7f4a7a2e1ed8920270d707489ec0ac0fe->leave($__internal_0cd013e660832a5cfee2cd80bf44b0c7f4a7a2e1ed8920270d707489ec0ac0fe_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -387,6 +396,10 @@ class __TwigTemplate_3af0cb6a47ec1cf93defe4557c0a80725e59cbf951393eb1a1504bc2ea0
         icon2.style.display = display1;
     }
 //]]></script>
+<<<<<<< HEAD
 ", "TwigBundle:Exception:exception.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.html.twig");
+=======
+", "TwigBundle:Exception:exception.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

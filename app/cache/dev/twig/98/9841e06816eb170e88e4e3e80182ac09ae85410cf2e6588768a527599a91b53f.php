@@ -15,8 +15,13 @@ class __TwigTemplate_bcf5ab91a0f6a146e0c1ecabc86ed9350630a443c5cbacbae99c115346f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_f6d45dfa95e9a3b8b2d924f300fb32be5c7f0ab074256aa242d6ccfa3dbf0997 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_f6d45dfa95e9a3b8b2d924f300fb32be5c7f0ab074256aa242d6ccfa3dbf0997->enter($__internal_f6d45dfa95e9a3b8b2d924f300fb32be5c7f0ab074256aa242d6ccfa3dbf0997_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_label.html.php"));
+=======
+        $__internal_b051b8986c8d83d5eaa8a0c6d7a13cb3324860349cbb9c994b7b29aea0538f9e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b051b8986c8d83d5eaa8a0c6d7a13cb3324860349cbb9c994b7b29aea0538f9e->enter($__internal_b051b8986c8d83d5eaa8a0c6d7a13cb3324860349cbb9c994b7b29aea0538f9e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_label.html.php"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<?php if (false !== \$label): ?>
@@ -29,7 +34,11 @@ class __TwigTemplate_bcf5ab91a0f6a146e0c1ecabc86ed9350630a443c5cbacbae99c115346f
 <?php endif ?>
 ";
         
+<<<<<<< HEAD
         $__internal_f6d45dfa95e9a3b8b2d924f300fb32be5c7f0ab074256aa242d6ccfa3dbf0997->leave($__internal_f6d45dfa95e9a3b8b2d924f300fb32be5c7f0ab074256aa242d6ccfa3dbf0997_prof);
+=======
+        $__internal_b051b8986c8d83d5eaa8a0c6d7a13cb3324860349cbb9c994b7b29aea0538f9e->leave($__internal_b051b8986c8d83d5eaa8a0c6d7a13cb3324860349cbb9c994b7b29aea0538f9e_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -61,6 +70,10 @@ class __TwigTemplate_bcf5ab91a0f6a146e0c1ecabc86ed9350630a443c5cbacbae99c115346f
     : \$view['form']->humanize(\$name); } ?>
 <label <?php foreach (\$label_attr as \$k => \$v) { printf('%s=\"%s\" ', \$view->escape(\$k), \$view->escape(\$v)); } ?>><?php echo \$view->escape(false !== \$translation_domain ? \$view['translator']->trans(\$label, array(), \$translation_domain) : \$label) ?></label>
 <?php endif ?>
+<<<<<<< HEAD
 ", "@Framework/Form/form_label.html.php", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_label.html.php");
+=======
+", "@Framework/Form/form_label.html.php", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_label.html.php");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

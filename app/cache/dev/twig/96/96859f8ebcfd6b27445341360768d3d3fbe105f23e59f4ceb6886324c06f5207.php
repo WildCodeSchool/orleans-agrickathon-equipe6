@@ -15,8 +15,13 @@ class __TwigTemplate_c3256d95aa8461d20cfda93cb72076076711321868eda77754ae83e3bd4
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_81d15666715123bb5ca70b32192072dc5c18bb8e2d966e9d0cb0b86b6c8ef03d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_81d15666715123bb5ca70b32192072dc5c18bb8e2d966e9d0cb0b86b6c8ef03d->enter($__internal_81d15666715123bb5ca70b32192072dc5c18bb8e2d966e9d0cb0b86b6c8ef03d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "DoctrineBundle:Collector:explain.html.twig"));
+=======
+        $__internal_8bc6c0e69c5c4da6b1d0c8ffc1fb5d76755367ff2f744c3e1bc2bf37a057074f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8bc6c0e69c5c4da6b1d0c8ffc1fb5d76755367ff2f744c3e1bc2bf37a057074f->enter($__internal_8bc6c0e69c5c4da6b1d0c8ffc1fb5d76755367ff2f744c3e1bc2bf37a057074f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "DoctrineBundle:Collector:explain.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         if ((twig_length_filter($this->env, $this->getAttribute((isset($context["data"]) ? $context["data"] : $this->getContext($context, "data")), 0, array(), "array")) > 1)) {
@@ -98,7 +103,11 @@ class __TwigTemplate_c3256d95aa8461d20cfda93cb72076076711321868eda77754ae83e3bd4
 ";
         }
         
+<<<<<<< HEAD
         $__internal_81d15666715123bb5ca70b32192072dc5c18bb8e2d966e9d0cb0b86b6c8ef03d->leave($__internal_81d15666715123bb5ca70b32192072dc5c18bb8e2d966e9d0cb0b86b6c8ef03d_prof);
+=======
+        $__internal_8bc6c0e69c5c4da6b1d0c8ffc1fb5d76755367ff2f744c3e1bc2bf37a057074f->leave($__internal_8bc6c0e69c5c4da6b1d0c8ffc1fb5d76755367ff2f744c3e1bc2bf37a057074f_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -155,6 +164,10 @@ class __TwigTemplate_c3256d95aa8461d20cfda93cb72076076711321868eda77754ae83e3bd4
         {%- endfor -%}
     </pre>
 {% endif %}
+<<<<<<< HEAD
 ", "DoctrineBundle:Collector:explain.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+=======
+", "DoctrineBundle:Collector:explain.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

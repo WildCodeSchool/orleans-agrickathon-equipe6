@@ -15,8 +15,13 @@ class __TwigTemplate_7a130a705a3e452a840b82d2b0e14aa3f660aae970a266df419fd62bf70
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_a01697134b552cc4fd55d46dff8d080d98779fc71546ff43940b2aba66b5a2e9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_a01697134b552cc4fd55d46dff8d080d98779fc71546ff43940b2aba66b5a2e9->enter($__internal_a01697134b552cc4fd55d46dff8d080d98779fc71546ff43940b2aba66b5a2e9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.txt.twig"));
+=======
+        $__internal_2615290f9a71eb3d377023230be00a0e1c06196b4178c75eee19b14d18a036ae = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2615290f9a71eb3d377023230be00a0e1c06196b4178c75eee19b14d18a036ae->enter($__internal_2615290f9a71eb3d377023230be00a0e1c06196b4178c75eee19b14d18a036ae_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.txt.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "Oops! An Error Occurred
@@ -33,7 +38,11 @@ Something is broken. Please let us know what you were doing when this error occu
 We will fix it as soon as possible. Sorry for any inconvenience caused.
 ";
         
+<<<<<<< HEAD
         $__internal_a01697134b552cc4fd55d46dff8d080d98779fc71546ff43940b2aba66b5a2e9->leave($__internal_a01697134b552cc4fd55d46dff8d080d98779fc71546ff43940b2aba66b5a2e9_prof);
+=======
+        $__internal_2615290f9a71eb3d377023230be00a0e1c06196b4178c75eee19b14d18a036ae->leave($__internal_2615290f9a71eb3d377023230be00a0e1c06196b4178c75eee19b14d18a036ae_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -69,6 +78,10 @@ The server returned a \"{{ status_code }} {{ status_text }}\".
 
 Something is broken. Please let us know what you were doing when this error occurred.
 We will fix it as soon as possible. Sorry for any inconvenience caused.
+<<<<<<< HEAD
 ", "TwigBundle:Exception:error.txt.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.txt.twig");
+=======
+", "TwigBundle:Exception:error.txt.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.txt.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

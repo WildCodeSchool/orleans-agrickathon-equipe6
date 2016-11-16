@@ -21,20 +21,34 @@ class __TwigTemplate_28bdd7656093d5d12f8b9af786b1479785d07ef253f0fe7e063c546742f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_e5e081bf1c54e6cbb9d4e0cbbb98c47d0e110bf096d4acae8ce1251987acf627 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_e5e081bf1c54e6cbb9d4e0cbbb98c47d0e110bf096d4acae8ce1251987acf627->enter($__internal_e5e081bf1c54e6cbb9d4e0cbbb98c47d0e110bf096d4acae8ce1251987acf627_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Resetting:reset.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
         $__internal_e5e081bf1c54e6cbb9d4e0cbbb98c47d0e110bf096d4acae8ce1251987acf627->leave($__internal_e5e081bf1c54e6cbb9d4e0cbbb98c47d0e110bf096d4acae8ce1251987acf627_prof);
+=======
+        $__internal_499693b95f10562d5db03d1a600829d2a3a70f6a1aecd450ad2a8c9e82167477 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_499693b95f10562d5db03d1a600829d2a3a70f6a1aecd450ad2a8c9e82167477->enter($__internal_499693b95f10562d5db03d1a600829d2a3a70f6a1aecd450ad2a8c9e82167477_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Resetting:reset.html.twig"));
+
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_499693b95f10562d5db03d1a600829d2a3a70f6a1aecd450ad2a8c9e82167477->leave($__internal_499693b95f10562d5db03d1a600829d2a3a70f6a1aecd450ad2a8c9e82167477_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_25490bec78afd9f6fde6e5c70683ad4f3279bc48f6432c8cf1a6d5878e366398 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_25490bec78afd9f6fde6e5c70683ad4f3279bc48f6432c8cf1a6d5878e366398->enter($__internal_25490bec78afd9f6fde6e5c70683ad4f3279bc48f6432c8cf1a6d5878e366398_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle:Resetting:reset.html.twig"));
+=======
+        $__internal_275b73f02892c4835fdf6b3e24c23c3efba7cca089ff87b177be6f1990195b7c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_275b73f02892c4835fdf6b3e24c23c3efba7cca089ff87b177be6f1990195b7c->enter($__internal_275b73f02892c4835fdf6b3e24c23c3efba7cca089ff87b177be6f1990195b7c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle:Resetting:reset.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 4
         echo "    <div class=\"row\">
@@ -78,7 +92,11 @@ class __TwigTemplate_28bdd7656093d5d12f8b9af786b1479785d07ef253f0fe7e063c546742f
     </div>
 ";
         
+<<<<<<< HEAD
         $__internal_25490bec78afd9f6fde6e5c70683ad4f3279bc48f6432c8cf1a6d5878e366398->leave($__internal_25490bec78afd9f6fde6e5c70683ad4f3279bc48f6432c8cf1a6d5878e366398_prof);
+=======
+        $__internal_275b73f02892c4835fdf6b3e24c23c3efba7cca089ff87b177be6f1990195b7c->leave($__internal_275b73f02892c4835fdf6b3e24c23c3efba7cca089ff87b177be6f1990195b7c_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -127,6 +145,10 @@ class __TwigTemplate_28bdd7656093d5d12f8b9af786b1479785d07ef253f0fe7e063c546742f
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 {% endblock %}", "SfWebAppFrontOfficeBundle:Resetting:reset.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Resetting/reset.html.twig");
+=======
+{% endblock %}", "SfWebAppFrontOfficeBundle:Resetting:reset.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Resetting/reset.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

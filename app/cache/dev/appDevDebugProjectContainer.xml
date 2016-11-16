@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
+<<<<<<< HEAD
     <parameter key="kernel.root_dir">/home/wilder4/Documents/orleans-agrickathon-equipe6/app</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.debug">true</parameter>
     <parameter key="kernel.name">app</parameter>
     <parameter key="kernel.cache_dir">/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev</parameter>
     <parameter key="kernel.logs_dir">/home/wilder4/Documents/orleans-agrickathon-equipe6/app/logs</parameter>
+=======
+    <parameter key="kernel.root_dir">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app</parameter>
+    <parameter key="kernel.environment">dev</parameter>
+    <parameter key="kernel.debug">true</parameter>
+    <parameter key="kernel.name">app</parameter>
+    <parameter key="kernel.cache_dir">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev</parameter>
+    <parameter key="kernel.logs_dir">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/logs</parameter>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="SecurityBundle">Symfony\Bundle\SecurityBundle\SecurityBundle</parameter>
@@ -106,7 +115,11 @@
       <parameter key="cookie_httponly">true</parameter>
       <parameter key="gc_probability">1</parameter>
     </parameter>
+<<<<<<< HEAD
     <parameter key="session.save_path">/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/sessions</parameter>
+=======
+    <parameter key="session.save_path">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/sessions</parameter>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     <parameter key="session.metadata.update_threshold">0</parameter>
     <parameter key="security.secure_random.class">Symfony\Component\Security\Core\Util\SecureRandom</parameter>
     <parameter key="form.resolved_type_factory.class">Symfony\Component\Form\ResolvedFormTypeFactory</parameter>
@@ -163,7 +176,11 @@
     <parameter key="data_collector.form.extractor.class">Symfony\Component\Form\Extension\DataCollector\FormDataExtractor</parameter>
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_master_requests">false</parameter>
+<<<<<<< HEAD
     <parameter key="profiler.storage.dsn">file:/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/profiler</parameter>
+=======
+    <parameter key="profiler.storage.dsn">file:/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/profiler</parameter>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     <parameter key="profiler.storage.username"></parameter>
     <parameter key="profiler.storage.password"></parameter>
     <parameter key="profiler.storage.lifetime">86400</parameter>
@@ -187,7 +204,11 @@
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
+<<<<<<< HEAD
     <parameter key="router.resource">/home/wilder4/Documents/orleans-agrickathon-equipe6/app/config/routing_dev.yml</parameter>
+=======
+    <parameter key="router.resource">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/config/routing_dev.yml</parameter>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     <parameter key="router.cache_class_prefix">appDevDebugProjectContainer</parameter>
     <parameter key="request_listener.http_port">80</parameter>
     <parameter key="request_listener.https_port">443</parameter>
@@ -198,7 +219,11 @@
     <parameter key="debug.stopwatch.class">Symfony\Component\Stopwatch\Stopwatch</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
     <parameter key="debug.event_dispatcher.class">Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher</parameter>
+<<<<<<< HEAD
     <parameter key="debug.container.dump">/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/appDevDebugProjectContainer.xml</parameter>
+=======
+    <parameter key="debug.container.dump">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/appDevDebugProjectContainer.xml</parameter>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     <parameter key="debug.controller_resolver.class">Symfony\Component\HttpKernel\Controller\TraceableControllerResolver</parameter>
     <parameter key="security.context.class">Symfony\Component\Security\Core\SecurityContext</parameter>
     <parameter key="security.user_checker.class">Symfony\Component\Security\Core\User\UserChecker</parameter>
@@ -393,7 +418,11 @@
     <parameter key="swiftmailer.mailer.default.transport.smtp.timeout">30</parameter>
     <parameter key="swiftmailer.mailer.default.transport.smtp.source_ip">null</parameter>
     <parameter key="swiftmailer.mailer.default.transport.smtp.local_domain">null</parameter>
+<<<<<<< HEAD
     <parameter key="swiftmailer.spool.default.memory.path">/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/swiftmailer/spool/default</parameter>
+=======
+    <parameter key="swiftmailer.spool.default.memory.path">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/swiftmailer/spool/default</parameter>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     <parameter key="swiftmailer.mailer.default.spool.enabled">true</parameter>
     <parameter key="swiftmailer.mailer.default.plugin.impersonate">null</parameter>
     <parameter key="swiftmailer.mailer.default.single_address">null</parameter>
@@ -511,7 +540,11 @@
     <parameter key="doctrine.orm.second_level_cache.cache_configuration.class">Doctrine\ORM\Cache\CacheConfiguration</parameter>
     <parameter key="doctrine.orm.second_level_cache.regions_configuration.class">Doctrine\ORM\Cache\RegionsConfiguration</parameter>
     <parameter key="doctrine.orm.auto_generate_proxy_classes">true</parameter>
+<<<<<<< HEAD
     <parameter key="doctrine.orm.proxy_dir">/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/doctrine/orm/Proxies</parameter>
+=======
+    <parameter key="doctrine.orm.proxy_dir">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/doctrine/orm/Proxies</parameter>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     <parameter key="doctrine.orm.proxy_namespace">Proxies</parameter>
     <parameter key="sensio_framework_extra.view.guesser.class">Sensio\Bundle\FrameworkExtraBundle\Templating\TemplateGuesser</parameter>
     <parameter key="sensio_framework_extra.controller.listener.class">Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener</parameter>
@@ -700,7 +733,11 @@
               <service class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TemplateFinder" public="false">
                 <argument type="service" id="kernel"/>
                 <argument type="service" id="templating.filename_parser"/>
+<<<<<<< HEAD
                 <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app/Resources</argument>
+=======
+                <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/Resources</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
               </service>
             </argument>
             <argument type="service" id="templating.locator"/>
@@ -727,7 +764,11 @@
               <service class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TemplateFinder" public="false">
                 <argument type="service" id="kernel"/>
                 <argument type="service" id="templating.filename_parser"/>
+<<<<<<< HEAD
                 <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app/Resources</argument>
+=======
+                <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/Resources</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
               </service>
             </argument>
             <argument type="collection"/>
@@ -740,7 +781,11 @@
             <argument type="service">
               <service class="Symfony\Bundle\TwigBundle\TemplateIterator" public="false">
                 <argument type="service" id="kernel"/>
+<<<<<<< HEAD
                 <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app</argument>
+=======
+                <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
                 <argument type="collection"/>
               </service>
             </argument>
@@ -771,7 +816,11 @@
     <service id="filesystem" class="Symfony\Component\Filesystem\Filesystem"/>
     <service id="file_locator" class="Symfony\Component\HttpKernel\Config\FileLocator">
       <argument type="service" id="kernel"/>
+<<<<<<< HEAD
       <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app/Resources</argument>
+=======
+      <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/Resources</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     </service>
     <service id="uri_signer" class="Symfony\Component\HttpKernel\UriSigner">
       <argument>ThisTokenIsNotSoSecretChangeIt</argument>
@@ -891,7 +940,11 @@
         </argument>
       </argument>
       <argument type="collection">
+<<<<<<< HEAD
         <argument key="cache_dir">/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/translations</argument>
+=======
+        <argument key="cache_dir">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/translations</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
         <argument key="debug">true</argument>
       </argument>
       <argument type="collection"/>
@@ -1412,7 +1465,11 @@
     <service id="templating.filename_parser" class="Symfony\Bundle\FrameworkBundle\Templating\TemplateFilenameParser"/>
     <service id="templating.locator" class="Symfony\Bundle\FrameworkBundle\Templating\Loader\TemplateLocator" public="false">
       <argument type="service" id="file_locator"/>
+<<<<<<< HEAD
       <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev</argument>
+=======
+      <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     </service>
     <service id="templating.helper.assets" class="Symfony\Bundle\FrameworkBundle\Templating\Helper\AssetsHelper">
       <tag name="templating.helper" alias="assets"/>
@@ -1451,8 +1508,13 @@
       </call>
       <call method="addXmlMappings">
         <argument type="collection">
+<<<<<<< HEAD
           <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/config/validation.xml</argument>
           <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/validation.xml</argument>
+=======
+          <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/config/validation.xml</argument>
+          <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/validation.xml</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
         </argument>
       </call>
       <call method="enableAnnotationMapping">
@@ -1473,7 +1535,11 @@
         </argument>
       </call>
       <call method="addXmlMapping">
+<<<<<<< HEAD
         <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/DependencyInjection/Compiler/../../Resources/config/storage-validation/orm.xml</argument>
+=======
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/DependencyInjection/Compiler/../../Resources/config/storage-validation/orm.xml</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
       </call>
       <factory class="Symfony\Component\Validator\Validation" method="createValidatorBuilder"/>
     </service>
@@ -1494,7 +1560,11 @@
       <tag name="monolog.logger" channel="profiler"/>
       <argument type="service">
         <service class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage" public="false">
+<<<<<<< HEAD
           <argument>file:/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/profiler</argument>
+=======
+          <argument>file:/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/profiler</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
           <argument></argument>
           <argument></argument>
           <argument>86400</argument>
@@ -1902,7 +1972,11 @@
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
+<<<<<<< HEAD
             <argument>582cc1396f30e8.14041691</argument>
+=======
+            <argument>582cba64690861.98689244</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
           </service>
         </argument>
         <argument type="service">
@@ -1916,7 +1990,11 @@
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
+<<<<<<< HEAD
             <argument>582cc1396f30e8.14041691</argument>
+=======
+            <argument>582cba64690861.98689244</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
           </service>
         </argument>
       </argument>
@@ -2267,7 +2345,11 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
+<<<<<<< HEAD
             <argument>582cc1396f30e8.14041691</argument>
+=======
+            <argument>582cba64690861.98689244</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -2379,7 +2461,11 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
+<<<<<<< HEAD
             <argument>582cc1396f30e8.14041691</argument>
+=======
+            <argument>582cba64690861.98689244</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -2417,7 +2503,11 @@
           <argument>form_div_layout.html.twig</argument>
         </argument>
         <argument key="autoescape">name</argument>
+<<<<<<< HEAD
         <argument key="cache">/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/twig</argument>
+=======
+        <argument key="cache">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/twig</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
         <argument key="charset">UTF-8</argument>
         <argument key="paths" type="collection"/>
         <argument key="date" type="collection">
@@ -2492,7 +2582,11 @@
           <service class="Symfony\Bridge\Twig\Extension\CodeExtension" public="false">
             <tag name="twig.extension"/>
             <argument>null</argument>
+<<<<<<< HEAD
             <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app</argument>
+=======
+            <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
             <argument>UTF-8</argument>
           </service>
         </argument>
@@ -2647,7 +2741,11 @@
     </service>
     <service id="monolog.processor.psr_log_message" class="Monolog\Processor\PsrLogMessageProcessor" public="false"/>
     <service id="monolog.handler.main" class="Monolog\Handler\StreamHandler">
+<<<<<<< HEAD
       <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app/logs/dev.log</argument>
+=======
+      <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/logs/dev.log</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
       <argument>100</argument>
       <argument>true</argument>
       <argument>null</argument>
@@ -2765,17 +2863,29 @@
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_metadata_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
+<<<<<<< HEAD
         <argument>sf2orm_default_e5c499195403df2d8b8513c898c1d547a608454854f477cac00976b5e70e4362</argument>
+=======
+        <argument>sf2orm_default_32a11bb389af892bd679587b7ba82d1c888109516238d980ae901fa7c437b4e4</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_result_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
+<<<<<<< HEAD
         <argument>sf2orm_default_e5c499195403df2d8b8513c898c1d547a608454854f477cac00976b5e70e4362</argument>
+=======
+        <argument>sf2orm_default_32a11bb389af892bd679587b7ba82d1c888109516238d980ae901fa7c437b4e4</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_query_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
+<<<<<<< HEAD
         <argument>sf2orm_default_e5c499195403df2d8b8513c898c1d547a608454854f477cac00976b5e70e4362</argument>
+=======
+        <argument>sf2orm_default_32a11bb389af892bd679587b7ba82d1c888109516238d980ae901fa7c437b4e4</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
       </call>
     </service>
     <service id="doctrine.orm.default_entity_listener_resolver" class="Doctrine\ORM\Mapping\DefaultEntityListenerResolver"/>
@@ -2810,11 +2920,17 @@
               <service class="Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain" public="false">
                 <call method="addDriver">
                   <argument type="service">
-                    <service class="Doctrine\ORM\Mapping\Driver\AnnotationDriver" public="false">
-                      <argument type="service" id="annotation_reader"/>
+                    <service class="Doctrine\ORM\Mapping\Driver\SimplifiedYamlDriver" public="false">
                       <argument type="collection">
+<<<<<<< HEAD
                         <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/src/SfWebApp/MainBundle/Entity</argument>
+=======
+                        <argument key="/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/MainBundle/Resources/config/doctrine">SfWebApp\MainBundle\Entity</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
                       </argument>
+                      <call method="setGlobalBasename">
+                        <argument>mapping</argument>
+                      </call>
                     </service>
                   </argument>
                   <argument>SfWebApp\MainBundle\Entity</argument>
@@ -2823,7 +2939,11 @@
                   <argument type="service">
                     <service class="Doctrine\ORM\Mapping\Driver\SimplifiedXmlDriver" public="false">
                       <argument type="collection">
+<<<<<<< HEAD
                         <argument key="/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine">FOS\UserBundle\Entity</argument>
+=======
+                        <argument key="/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/doctrine">FOS\UserBundle\Entity</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
                       </argument>
                       <call method="setGlobalBasename">
                         <argument>mapping</argument>
@@ -2836,7 +2956,11 @@
             </argument>
           </call>
           <call method="setProxyDir">
+<<<<<<< HEAD
             <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/doctrine/orm/Proxies</argument>
+=======
+            <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/doctrine/orm/Proxies</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
           </call>
           <call method="setProxyNamespace">
             <argument>Proxies</argument>
@@ -3226,7 +3350,11 @@
     </service>
     <service id="monolog.handler.null_internal" class="Monolog\Handler\NullHandler"/>
     <service id="session.storage.filesystem" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage">
+<<<<<<< HEAD
       <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/sessions</argument>
+=======
+      <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/sessions</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
       <argument>MOCKSESSID</argument>
       <argument type="service" id="session.storage.metadata_bag"/>
     </service>
@@ -3241,9 +3369,15 @@
     <service id="router" class="Symfony\Bundle\FrameworkBundle\Routing\Router">
       <tag name="monolog.logger" channel="router"/>
       <argument type="service" id="service_container"/>
+<<<<<<< HEAD
       <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app/config/routing_dev.yml</argument>
       <argument type="collection">
         <argument key="cache_dir">/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev</argument>
+=======
+      <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/config/routing_dev.yml</argument>
+      <argument type="collection">
+        <argument key="cache_dir">/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
         <argument key="generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
@@ -3267,7 +3401,11 @@
       </argument>
       <argument type="service">
         <service class="Doctrine\Common\Cache\FilesystemCache" public="false">
+<<<<<<< HEAD
           <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/app/cache/dev/annotations</argument>
+=======
+          <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/cache/dev/annotations</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
         </service>
       </argument>
       <argument>true</argument>
@@ -3293,6 +3431,7 @@
       <argument type="service" id="templating.locator"/>
       <argument type="service" id="templating.name_parser"/>
       <call method="addPath">
+<<<<<<< HEAD
         <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
         <argument>Framework</argument>
       </call>
@@ -3345,6 +3484,60 @@
       </call>
       <call method="addPath">
         <argument>/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
+=======
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
+        <argument>Framework</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
+        <argument>Security</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
+        <argument>Twig</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
+        <argument>Swiftmailer</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/MainBundle/Resources/views</argument>
+        <argument>SfWebAppMain</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/BackOfficeBundle/Resources/views</argument>
+        <argument>SfWebAppBackOffice</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views</argument>
+        <argument>SfWebAppFrontOffice</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/CmsBundle/Resources/views</argument>
+        <argument>SfWebAppCms</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views</argument>
+        <argument>FOSUser</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
+        <argument>Debug</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
+        <argument>WebProfiler</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/app/Resources/views</argument>
+      </call>
+      <call method="addPath">
+        <argument>/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
       </call>
     </service>
     <service id="logger" class="Symfony\Bridge\Monolog\Logger">

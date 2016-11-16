@@ -15,8 +15,13 @@ class __TwigTemplate_8e2d6a397bc789649f5ec989c327cddcdfc7f7f918daa93f606f3fb2627
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_d2c72997ea4cc0a66ef2189b1f0ce97f6386fc7cdf25110b776aa5acacc9e908 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_d2c72997ea4cc0a66ef2189b1f0ce97f6386fc7cdf25110b776aa5acacc9e908->enter($__internal_d2c72997ea4cc0a66ef2189b1f0ce97f6386fc7cdf25110b776aa5acacc9e908_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:ChangePassword:changePassword_content.html.twig"));
+=======
+        $__internal_eb96710b81297a3303d3cd7882cce241595ee6ada9404c147d817295615a921f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_eb96710b81297a3303d3cd7882cce241595ee6ada9404c147d817295615a921f->enter($__internal_eb96710b81297a3303d3cd7882cce241595ee6ada9404c147d817295615a921f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:ChangePassword:changePassword_content.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<form action=\"";
@@ -37,7 +42,11 @@ class __TwigTemplate_8e2d6a397bc789649f5ec989c327cddcdfc7f7f918daa93f606f3fb2627
 </form>
 ";
         
+<<<<<<< HEAD
         $__internal_d2c72997ea4cc0a66ef2189b1f0ce97f6386fc7cdf25110b776aa5acacc9e908->leave($__internal_d2c72997ea4cc0a66ef2189b1f0ce97f6386fc7cdf25110b776aa5acacc9e908_prof);
+=======
+        $__internal_eb96710b81297a3303d3cd7882cce241595ee6ada9404c147d817295615a921f->leave($__internal_eb96710b81297a3303d3cd7882cce241595ee6ada9404c147d817295615a921f_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -72,6 +81,10 @@ class __TwigTemplate_8e2d6a397bc789649f5ec989c327cddcdfc7f7f918daa93f606f3fb2627
         <input type=\"submit\" value=\"{{ 'change_password.submit'|trans({}, 'FOSUserBundle') }}\" />
     </div>
 </form>
+<<<<<<< HEAD
 ", "FOSUserBundle:ChangePassword:changePassword_content.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/ChangePassword/changePassword_content.html.twig");
+=======
+", "FOSUserBundle:ChangePassword:changePassword_content.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/ChangePassword/changePassword_content.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

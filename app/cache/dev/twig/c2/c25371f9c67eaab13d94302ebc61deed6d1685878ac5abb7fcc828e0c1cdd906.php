@@ -15,8 +15,13 @@ class __TwigTemplate_dbfb79211f3ed7d17fa5ba1bb5893fc524869ef130b8c75cbea59e9ee86
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_1a223ff1a82a6d3ec848345b995f5a02a39c94ab06a2d7180790dbfcb01c1d73 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_1a223ff1a82a6d3ec848345b995f5a02a39c94ab06a2d7180790dbfcb01c1d73->enter($__internal_1a223ff1a82a6d3ec848345b995f5a02a39c94ab06a2d7180790dbfcb01c1d73_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Router:panel.html.twig"));
+=======
+        $__internal_456b79d911e5c62b9fa8e1f37ba9d6a3bc9796e55d6b3f3be5c976f090bdee3c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_456b79d911e5c62b9fa8e1f37ba9d6a3bc9796e55d6b3f3be5c976f090bdee3c->enter($__internal_456b79d911e5c62b9fa8e1f37ba9d6a3bc9796e55d6b3f3be5c976f090bdee3c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Router:panel.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<h2>Routing</h2>
@@ -197,7 +202,11 @@ $context["trace"], "level", array()) == 2)) {
 </p>
 ";
         
+<<<<<<< HEAD
         $__internal_1a223ff1a82a6d3ec848345b995f5a02a39c94ab06a2d7180790dbfcb01c1d73->leave($__internal_1a223ff1a82a6d3ec848345b995f5a02a39c94ab06a2d7180790dbfcb01c1d73_prof);
+=======
+        $__internal_456b79d911e5c62b9fa8e1f37ba9d6a3bc9796e55d6b3f3be5c976f090bdee3c->leave($__internal_456b79d911e5c62b9fa8e1f37ba9d6a3bc9796e55d6b3f3be5c976f090bdee3c_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -304,6 +313,10 @@ $context["trace"], "level", array()) == 2)) {
     Note: These matching logs are based on the current router configuration,
     which might differ from the configuration used when profiling this request.
 </p>
+<<<<<<< HEAD
 ", "WebProfilerBundle:Router:panel.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Router/panel.html.twig");
+=======
+", "WebProfilerBundle:Router:panel.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Router/panel.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

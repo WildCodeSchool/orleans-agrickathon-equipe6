@@ -21,20 +21,34 @@ class __TwigTemplate_1c9006de121b0934c9f7c01e0a536d4b69a1a7da3be6d99d76a16ac3b2c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_8aceca40ec720562738ddf051ce9bf03ad9f9352f2e2e6792777f03db7fa78c4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_8aceca40ec720562738ddf051ce9bf03ad9f9352f2e2e6792777f03db7fa78c4->enter($__internal_8aceca40ec720562738ddf051ce9bf03ad9f9352f2e2e6792777f03db7fa78c4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Resetting:checkEmail.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
         $__internal_8aceca40ec720562738ddf051ce9bf03ad9f9352f2e2e6792777f03db7fa78c4->leave($__internal_8aceca40ec720562738ddf051ce9bf03ad9f9352f2e2e6792777f03db7fa78c4_prof);
+=======
+        $__internal_2590042a60a95119feea4b5fa0a8fd6167f504a0ecac902937d631f1d1cdd652 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2590042a60a95119feea4b5fa0a8fd6167f504a0ecac902937d631f1d1cdd652->enter($__internal_2590042a60a95119feea4b5fa0a8fd6167f504a0ecac902937d631f1d1cdd652_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Resetting:checkEmail.html.twig"));
+
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_2590042a60a95119feea4b5fa0a8fd6167f504a0ecac902937d631f1d1cdd652->leave($__internal_2590042a60a95119feea4b5fa0a8fd6167f504a0ecac902937d631f1d1cdd652_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_303b9d909c1d83b1865cd7ee1909fdc4e272f38f4af964807ba9604e2768e269 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_303b9d909c1d83b1865cd7ee1909fdc4e272f38f4af964807ba9604e2768e269->enter($__internal_303b9d909c1d83b1865cd7ee1909fdc4e272f38f4af964807ba9604e2768e269_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle:Resetting:checkEmail.html.twig"));
+=======
+        $__internal_1f9d2ed1ebf49e566d9d4aeb73357b78dc74b0a4d299e6c0aab4d7ad4a33d697 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1f9d2ed1ebf49e566d9d4aeb73357b78dc74b0a4d299e6c0aab4d7ad4a33d697->enter($__internal_1f9d2ed1ebf49e566d9d4aeb73357b78dc74b0a4d299e6c0aab4d7ad4a33d697_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle:Resetting:checkEmail.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 4
         echo "    <div class=\"row\">
@@ -57,7 +71,11 @@ class __TwigTemplate_1c9006de121b0934c9f7c01e0a536d4b69a1a7da3be6d99d76a16ac3b2c
     </div>
 ";
         
+<<<<<<< HEAD
         $__internal_303b9d909c1d83b1865cd7ee1909fdc4e272f38f4af964807ba9604e2768e269->leave($__internal_303b9d909c1d83b1865cd7ee1909fdc4e272f38f4af964807ba9604e2768e269_prof);
+=======
+        $__internal_1f9d2ed1ebf49e566d9d4aeb73357b78dc74b0a4d299e6c0aab4d7ad4a33d697->leave($__internal_1f9d2ed1ebf49e566d9d4aeb73357b78dc74b0a4d299e6c0aab4d7ad4a33d697_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -101,6 +119,10 @@ class __TwigTemplate_1c9006de121b0934c9f7c01e0a536d4b69a1a7da3be6d99d76a16ac3b2c
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 {% endblock %}", "SfWebAppFrontOfficeBundle:Resetting:checkEmail.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Resetting/checkEmail.html.twig");
+=======
+{% endblock %}", "SfWebAppFrontOfficeBundle:Resetting:checkEmail.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Resetting/checkEmail.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

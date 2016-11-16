@@ -1,0 +1,34 @@
+SfWebApp\MainBundle\Entity\Equipe:
+    type: entity
+    table: null
+    repositoryClass: SfWebApp\MainBundle\Repository\EquipeRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+        prenom:
+            type: string
+            length: 255
+        photo:
+            type: string
+            length: 255
+            nullable: true
+        posteActuel:
+            type: string
+            length: 255
+            nullable: true
+            column: poste_actuel
+        email:
+            type: string
+            length: 255
+            nullable: true
+        phone:
+            type: integer
+            nullable: true
+    lifecycleCallbacks: {  }

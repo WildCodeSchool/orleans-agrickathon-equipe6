@@ -15,8 +15,13 @@ class __TwigTemplate_25d499ab940fd371f39724338d9c2ebd4f93ebf771835ab4bedfa981205
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_a6a7f145b52735ec68d9aca56514155d54f531f0b734d6d7f867cd8fdc5907c3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_a6a7f145b52735ec68d9aca56514155d54f531f0b734d6d7f867cd8fdc5907c3->enter($__internal_a6a7f145b52735ec68d9aca56514155d54f531f0b734d6d7f867cd8fdc5907c3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/button_row.html.php"));
+=======
+        $__internal_d5db6eb097f5236431e7ee668e03ba39685778b54f82ccfe7ca01db1ebf7e1b7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d5db6eb097f5236431e7ee668e03ba39685778b54f82ccfe7ca01db1ebf7e1b7->enter($__internal_d5db6eb097f5236431e7ee668e03ba39685778b54f82ccfe7ca01db1ebf7e1b7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/button_row.html.php"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<div>
@@ -24,7 +29,11 @@ class __TwigTemplate_25d499ab940fd371f39724338d9c2ebd4f93ebf771835ab4bedfa981205
 </div>
 ";
         
+<<<<<<< HEAD
         $__internal_a6a7f145b52735ec68d9aca56514155d54f531f0b734d6d7f867cd8fdc5907c3->leave($__internal_a6a7f145b52735ec68d9aca56514155d54f531f0b734d6d7f867cd8fdc5907c3_prof);
+=======
+        $__internal_d5db6eb097f5236431e7ee668e03ba39685778b54f82ccfe7ca01db1ebf7e1b7->leave($__internal_d5db6eb097f5236431e7ee668e03ba39685778b54f82ccfe7ca01db1ebf7e1b7_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -51,6 +60,10 @@ class __TwigTemplate_25d499ab940fd371f39724338d9c2ebd4f93ebf771835ab4bedfa981205
         return new Twig_Source("<div>
     <?php echo \$view['form']->widget(\$form) ?>
 </div>
+<<<<<<< HEAD
 ", "@Framework/Form/button_row.html.php", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/button_row.html.php");
+=======
+", "@Framework/Form/button_row.html.php", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/button_row.html.php");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

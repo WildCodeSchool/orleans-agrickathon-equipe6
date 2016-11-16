@@ -4,7 +4,7 @@ sf_web_app_cms:
 
 sf_web_app_front_office:
     resource: "@SfWebAppFrontOfficeBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /frontoffice
 
 sf_web_app_back_office:
     resource: "@SfWebAppBackOfficeBundle/Resources/config/routing.yml"

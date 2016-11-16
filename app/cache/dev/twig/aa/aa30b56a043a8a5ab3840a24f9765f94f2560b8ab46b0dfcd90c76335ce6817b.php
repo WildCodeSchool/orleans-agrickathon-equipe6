@@ -15,8 +15,13 @@ class __TwigTemplate_2b9f81b9e870b97ba7696404a203e979afc6646e5d782586f36644e2ea0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_5a6cfc98f3119cabb350bb777b79fb5e2f3b67c9b2c4d768410bca4ec62b5b4d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_5a6cfc98f3119cabb350bb777b79fb5e2f3b67c9b2c4d768410bca4ec62b5b4d->enter($__internal_5a6cfc98f3119cabb350bb777b79fb5e2f3b67c9b2c4d768410bca4ec62b5b4d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Group:show_content.html.twig"));
+=======
+        $__internal_3d2b1c29f060a94db4bd351ab864277d3d294015ee0aa5103c5c69822b858fa5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3d2b1c29f060a94db4bd351ab864277d3d294015ee0aa5103c5c69822b858fa5->enter($__internal_3d2b1c29f060a94db4bd351ab864277d3d294015ee0aa5103c5c69822b858fa5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Group:show_content.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<div class=\"fos_user_group_show\">
@@ -29,7 +34,11 @@ class __TwigTemplate_2b9f81b9e870b97ba7696404a203e979afc6646e5d782586f36644e2ea0
 </div>
 ";
         
+<<<<<<< HEAD
         $__internal_5a6cfc98f3119cabb350bb777b79fb5e2f3b67c9b2c4d768410bca4ec62b5b4d->leave($__internal_5a6cfc98f3119cabb350bb777b79fb5e2f3b67c9b2c4d768410bca4ec62b5b4d_prof);
+=======
+        $__internal_3d2b1c29f060a94db4bd351ab864277d3d294015ee0aa5103c5c69822b858fa5->leave($__internal_3d2b1c29f060a94db4bd351ab864277d3d294015ee0aa5103c5c69822b858fa5_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -61,6 +70,10 @@ class __TwigTemplate_2b9f81b9e870b97ba7696404a203e979afc6646e5d782586f36644e2ea0
         return new Twig_Source("<div class=\"fos_user_group_show\">
     <p>{{ 'group.show.name'|trans([], 'FOSUserBundle') }}: {{ group.getName() }}</p>
 </div>
+<<<<<<< HEAD
 ", "FOSUserBundle:Group:show_content.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Group/show_content.html.twig");
+=======
+", "FOSUserBundle:Group:show_content.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Group/show_content.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

@@ -15,8 +15,13 @@ class __TwigTemplate_ec7d7ddf16736f7e05c9cd073395e921e864dda03995f37913a5437a2e2
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_7c848f885b8544d96f989cab198d5ba9ac3f332123cca9f86435b89dff94f3d0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_7c848f885b8544d96f989cab198d5ba9ac3f332123cca9f86435b89dff94f3d0->enter($__internal_7c848f885b8544d96f989cab198d5ba9ac3f332123cca9f86435b89dff94f3d0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/choice_widget_collapsed.html.php"));
+=======
+        $__internal_52f18626fe6363f7707a7b988e4a1e153265b364472182ab3cb5664ddc84301f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_52f18626fe6363f7707a7b988e4a1e153265b364472182ab3cb5664ddc84301f->enter($__internal_52f18626fe6363f7707a7b988e4a1e153265b364472182ab3cb5664ddc84301f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/choice_widget_collapsed.html.php"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<select
@@ -39,7 +44,11 @@ class __TwigTemplate_ec7d7ddf16736f7e05c9cd073395e921e864dda03995f37913a5437a2e2
 </select>
 ";
         
+<<<<<<< HEAD
         $__internal_7c848f885b8544d96f989cab198d5ba9ac3f332123cca9f86435b89dff94f3d0->leave($__internal_7c848f885b8544d96f989cab198d5ba9ac3f332123cca9f86435b89dff94f3d0_prof);
+=======
+        $__internal_52f18626fe6363f7707a7b988e4a1e153265b364472182ab3cb5664ddc84301f->leave($__internal_52f18626fe6363f7707a7b988e4a1e153265b364472182ab3cb5664ddc84301f_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -81,6 +90,10 @@ class __TwigTemplate_ec7d7ddf16736f7e05c9cd073395e921e864dda03995f37913a5437a2e2
     <?php endif ?>
     <?php echo \$view['form']->block(\$form, 'choice_widget_options', array('choices' => \$choices)) ?>
 </select>
+<<<<<<< HEAD
 ", "@Framework/Form/choice_widget_collapsed.html.php", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/choice_widget_collapsed.html.php");
+=======
+", "@Framework/Form/choice_widget_collapsed.html.php", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/choice_widget_collapsed.html.php");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

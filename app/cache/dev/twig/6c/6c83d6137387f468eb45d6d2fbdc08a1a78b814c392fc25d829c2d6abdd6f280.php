@@ -15,8 +15,13 @@ class __TwigTemplate_8243e2944afd9d07aada776f41dbf4c93957e08a4e7e3d8802a919a2fca
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_ca1c6ea09c481ecdde9f18d81bcde833d68110ccca41fecc469ae4b6fae84209 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_ca1c6ea09c481ecdde9f18d81bcde833d68110ccca41fecc469ae4b6fae84209->enter($__internal_ca1c6ea09c481ecdde9f18d81bcde833d68110ccca41fecc469ae4b6fae84209_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:header.html.twig"));
+=======
+        $__internal_bad34da40fdeabd483cb9d873dad97b20c052ed6b33f72bf38a404e21e7080ff = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_bad34da40fdeabd483cb9d873dad97b20c052ed6b33f72bf38a404e21e7080ff->enter($__internal_bad34da40fdeabd483cb9d873dad97b20c052ed6b33f72bf38a404e21e7080ff_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:header.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<div id=\"header\">
@@ -38,7 +43,11 @@ class __TwigTemplate_8243e2944afd9d07aada776f41dbf4c93957e08a4e7e3d8802a919a2fca
 </div>
 ";
         
+<<<<<<< HEAD
         $__internal_ca1c6ea09c481ecdde9f18d81bcde833d68110ccca41fecc469ae4b6fae84209->leave($__internal_ca1c6ea09c481ecdde9f18d81bcde833d68110ccca41fecc469ae4b6fae84209_prof);
+=======
+        $__internal_bad34da40fdeabd483cb9d873dad97b20c052ed6b33f72bf38a404e21e7080ff->leave($__internal_bad34da40fdeabd483cb9d873dad97b20c052ed6b33f72bf38a404e21e7080ff_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -81,6 +90,10 @@ class __TwigTemplate_8243e2944afd9d07aada776f41dbf4c93957e08a4e7e3d8802a919a2fca
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 ", "WebProfilerBundle:Profiler:header.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/header.html.twig");
+=======
+", "WebProfilerBundle:Profiler:header.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/header.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

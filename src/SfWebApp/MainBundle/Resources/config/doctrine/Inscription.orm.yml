@@ -1,0 +1,63 @@
+SfWebApp\MainBundle\Entity\Inscription:
+    type: entity
+    table: null
+    repositoryClass: SfWebApp\MainBundle\Repository\InscriptionRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        type:
+            type: string
+            length: 255
+        email:
+            type: string
+            length: 255
+        password:
+            type: string
+            length: '100'
+        nom:
+            type: string
+            length: 255
+        logo:
+            type: string
+            length: 255
+            nullable: true
+        video:
+            type: string
+            length: 255
+            nullable: true
+        catchLine:
+            type: string
+            length: 255
+            nullable: true
+            column: catch_line
+        apropos:
+            type: text
+            nullable: true
+        choix:
+            type: text
+            nullable: true
+        postureRSE:
+            type: string
+            length: 255
+            nullable: true
+            column: posture_RSE
+    lifecycleCallbacks: {  }
+
+    manyToOne:
+        secteur:
+            targetEntity: SfWebApp\MainBundle\Entity\Secteur
+            inversedBy: secteurs
+        soussecteur:
+            targetEntity: SfWebApp\MainBundle\Entity\Sous_secteur
+            inversedBy: soussecteurs
+        cible:
+            targetEntity: SfWebApp\MainBundle\Entity\Cible
+            inversedBy: cibles
+
+    oneToOne:
+        equipe:
+            targetEntity: SfWebApp\MainBundle\Entity\Equipe

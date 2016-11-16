@@ -15,8 +15,13 @@ class __TwigTemplate_b64f9094652a9e1b63db14969ec79dd646bac8f07a198bbd2c5382685d0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_faeb183840bf5de9fe5ad5d9c2edd9d6d702f9422ccb42876e68778ca3288c91 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_faeb183840bf5de9fe5ad5d9c2edd9d6d702f9422ccb42876e68778ca3288c91->enter($__internal_faeb183840bf5de9fe5ad5d9c2edd9d6d702f9422ccb42876e68778ca3288c91_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Group:list_content.html.twig"));
+=======
+        $__internal_ed15398d00ad7ff7cfa44520424afe6939a0d96c4d864062da2bd9353cda13d8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ed15398d00ad7ff7cfa44520424afe6939a0d96c4d864062da2bd9353cda13d8->enter($__internal_ed15398d00ad7ff7cfa44520424afe6939a0d96c4d864062da2bd9353cda13d8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Group:list_content.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<div class=\"fos_user_group_list\">
@@ -42,7 +47,11 @@ class __TwigTemplate_b64f9094652a9e1b63db14969ec79dd646bac8f07a198bbd2c5382685d0
 </div>
 ";
         
+<<<<<<< HEAD
         $__internal_faeb183840bf5de9fe5ad5d9c2edd9d6d702f9422ccb42876e68778ca3288c91->leave($__internal_faeb183840bf5de9fe5ad5d9c2edd9d6d702f9422ccb42876e68778ca3288c91_prof);
+=======
+        $__internal_ed15398d00ad7ff7cfa44520424afe6939a0d96c4d864062da2bd9353cda13d8->leave($__internal_ed15398d00ad7ff7cfa44520424afe6939a0d96c4d864062da2bd9353cda13d8_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -78,6 +87,10 @@ class __TwigTemplate_b64f9094652a9e1b63db14969ec79dd646bac8f07a198bbd2c5382685d0
     {% endfor %}
     </ul>
 </div>
+<<<<<<< HEAD
 ", "FOSUserBundle:Group:list_content.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Group/list_content.html.twig");
+=======
+", "FOSUserBundle:Group:list_content.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Group/list_content.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

@@ -15,8 +15,13 @@ class __TwigTemplate_878c06c0b9bac9e3acb58f2e1ce84f8556d3d33ab568089094de6ed1353
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_1b23c1de9e87364d07982ce6513ee9b03fe7b7c35e289db5f5b1574d15c3e474 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_1b23c1de9e87364d07982ce6513ee9b03fe7b7c35e289db5f5b1574d15c3e474->enter($__internal_1b23c1de9e87364d07982ce6513ee9b03fe7b7c35e289db5f5b1574d15c3e474_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/radio_widget.html.php"));
+=======
+        $__internal_62ad21c7d834b8a844a51232664e63c13ce3e6ed5f3c4b8b45a4935e299d7175 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_62ad21c7d834b8a844a51232664e63c13ce3e6ed5f3c4b8b45a4935e299d7175->enter($__internal_62ad21c7d834b8a844a51232664e63c13ce3e6ed5f3c4b8b45a4935e299d7175_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/radio_widget.html.php"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<input type=\"radio\"
@@ -26,7 +31,11 @@ class __TwigTemplate_878c06c0b9bac9e3acb58f2e1ce84f8556d3d33ab568089094de6ed1353
 />
 ";
         
+<<<<<<< HEAD
         $__internal_1b23c1de9e87364d07982ce6513ee9b03fe7b7c35e289db5f5b1574d15c3e474->leave($__internal_1b23c1de9e87364d07982ce6513ee9b03fe7b7c35e289db5f5b1574d15c3e474_prof);
+=======
+        $__internal_62ad21c7d834b8a844a51232664e63c13ce3e6ed5f3c4b8b45a4935e299d7175->leave($__internal_62ad21c7d834b8a844a51232664e63c13ce3e6ed5f3c4b8b45a4935e299d7175_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -55,6 +64,10 @@ class __TwigTemplate_878c06c0b9bac9e3acb58f2e1ce84f8556d3d33ab568089094de6ed1353
     value=\"<?php echo \$view->escape(\$value) ?>\"
     <?php if (\$checked): ?> checked=\"checked\"<?php endif ?>
 />
+<<<<<<< HEAD
 ", "@Framework/Form/radio_widget.html.php", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/radio_widget.html.php");
+=======
+", "@Framework/Form/radio_widget.html.php", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/radio_widget.html.php");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

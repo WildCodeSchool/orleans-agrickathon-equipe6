@@ -15,8 +15,13 @@ class __TwigTemplate_1345e7a7cf9af773595c3904437c7f7a15a72411ee57e91c45bfc8de174
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_dc2f5e40f8d3d4a70179f473a3a9c4bca6c333bfb380ae5381ec36e971a1f53a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_dc2f5e40f8d3d4a70179f473a3a9c4bca6c333bfb380ae5381ec36e971a1f53a->enter($__internal_dc2f5e40f8d3d4a70179f473a3a9c4bca6c333bfb380ae5381ec36e971a1f53a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:trace.html.twig"));
+=======
+        $__internal_9b8027f221ff7a3ca4c9bb1229d7953944f6aba2b46be7fb2f07071b4e0ad9b6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9b8027f221ff7a3ca4c9bb1229d7953944f6aba2b46be7fb2f07071b4e0ad9b6->enter($__internal_9b8027f221ff7a3ca4c9bb1229d7953944f6aba2b46be7fb2f07071b4e0ad9b6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:trace.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         if ($this->getAttribute((isset($context["trace"]) ? $context["trace"] : $this->getContext($context, "trace")), "function", array())) {
@@ -93,7 +98,11 @@ class __TwigTemplate_1345e7a7cf9af773595c3904437c7f7a15a72411ee57e91c45bfc8de174
 ";
         }
         
+<<<<<<< HEAD
         $__internal_dc2f5e40f8d3d4a70179f473a3a9c4bca6c333bfb380ae5381ec36e971a1f53a->leave($__internal_dc2f5e40f8d3d4a70179f473a3a9c4bca6c333bfb380ae5381ec36e971a1f53a_prof);
+=======
+        $__internal_9b8027f221ff7a3ca4c9bb1229d7953944f6aba2b46be7fb2f07071b4e0ad9b6->leave($__internal_9b8027f221ff7a3ca4c9bb1229d7953944f6aba2b46be7fb2f07071b4e0ad9b6_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -144,6 +153,10 @@ class __TwigTemplate_1345e7a7cf9af773595c3904437c7f7a15a72411ee57e91c45bfc8de174
         {{ trace.file|file_excerpt(trace.line) }}
     </div>
 {% endif %}
+<<<<<<< HEAD
 ", "TwigBundle:Exception:trace.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/trace.html.twig");
+=======
+", "TwigBundle:Exception:trace.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/trace.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

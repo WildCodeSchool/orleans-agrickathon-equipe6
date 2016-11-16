@@ -15,8 +15,13 @@ class __TwigTemplate_2f7770a7b983bf798083a0775619c098384414d9ab635cc087e645fa20a
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_ad5f5bc7fdc8c4b879dd54d8bac821259d62602e300d63b4583bb9a3b6dbf3d5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_ad5f5bc7fdc8c4b879dd54d8bac821259d62602e300d63b4583bb9a3b6dbf3d5->enter($__internal_ad5f5bc7fdc8c4b879dd54d8bac821259d62602e300d63b4583bb9a3b6dbf3d5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:toolbar.css.twig"));
+=======
+        $__internal_8ef10167cf367fab1ee3fd6c72651c91e70fdcd09fd1895a9493c107b1e2c2da = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8ef10167cf367fab1ee3fd6c72651c91e70fdcd09fd1895a9493c107b1e2c2da->enter($__internal_8ef10167cf367fab1ee3fd6c72651c91e70fdcd09fd1895a9493c107b1e2c2da_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:toolbar.css.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 2
         $context["colors"] = array("success" => "#4F805D", "warning" => "#A46A1F", "error" => "#B0413E");
@@ -538,7 +543,11 @@ class __TwigTemplate_2f7770a7b983bf798083a0775619c098384414d9ab635cc087e645fa20a
 }
 ";
         
+<<<<<<< HEAD
         $__internal_ad5f5bc7fdc8c4b879dd54d8bac821259d62602e300d63b4583bb9a3b6dbf3d5->leave($__internal_ad5f5bc7fdc8c4b879dd54d8bac821259d62602e300d63b4583bb9a3b6dbf3d5_prof);
+=======
+        $__internal_8ef10167cf367fab1ee3fd6c72651c91e70fdcd09fd1895a9493c107b1e2c2da->leave($__internal_8ef10167cf367fab1ee3fd6c72651c91e70fdcd09fd1895a9493c107b1e2c2da_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -1056,6 +1065,10 @@ class __TwigTemplate_2f7770a7b983bf798083a0775619c098384414d9ab635cc087e645fa20a
         display: none;
     }
 }
+<<<<<<< HEAD
 ", "WebProfilerBundle:Profiler:toolbar.css.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar.css.twig");
+=======
+", "WebProfilerBundle:Profiler:toolbar.css.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar.css.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

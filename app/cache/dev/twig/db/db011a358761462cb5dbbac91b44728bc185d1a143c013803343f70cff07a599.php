@@ -21,20 +21,34 @@ class __TwigTemplate_3b8cd0df394778970f1c9342921af653cf46ab27b571a1dee20b0beb0d0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_94c092bd32256066187e78b0544d376443f04b309c15dd78a47fc4376969d9cd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_94c092bd32256066187e78b0544d376443f04b309c15dd78a47fc4376969d9cd->enter($__internal_94c092bd32256066187e78b0544d376443f04b309c15dd78a47fc4376969d9cd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Security:login.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
         $__internal_94c092bd32256066187e78b0544d376443f04b309c15dd78a47fc4376969d9cd->leave($__internal_94c092bd32256066187e78b0544d376443f04b309c15dd78a47fc4376969d9cd_prof);
+=======
+        $__internal_941ea4b6f434de46d70e57de4ab107ffc92c4c7ee7bf52da52aeccfb0e0e719e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_941ea4b6f434de46d70e57de4ab107ffc92c4c7ee7bf52da52aeccfb0e0e719e->enter($__internal_941ea4b6f434de46d70e57de4ab107ffc92c4c7ee7bf52da52aeccfb0e0e719e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Security:login.html.twig"));
+
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_941ea4b6f434de46d70e57de4ab107ffc92c4c7ee7bf52da52aeccfb0e0e719e->leave($__internal_941ea4b6f434de46d70e57de4ab107ffc92c4c7ee7bf52da52aeccfb0e0e719e_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_de7370e99fcabedc59ea5607f035b7cb6e967451fc515def49ddc4244ea8bf21 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_de7370e99fcabedc59ea5607f035b7cb6e967451fc515def49ddc4244ea8bf21->enter($__internal_de7370e99fcabedc59ea5607f035b7cb6e967451fc515def49ddc4244ea8bf21_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle:Security:login.html.twig"));
+=======
+        $__internal_243a451ac6b7d7c59428ab84e14fe15d6d835f728b608fb0447411b177e745ff = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_243a451ac6b7d7c59428ab84e14fe15d6d835f728b608fb0447411b177e745ff->enter($__internal_243a451ac6b7d7c59428ab84e14fe15d6d835f728b608fb0447411b177e745ff_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle:Security:login.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 4
         echo "    <div id=\"layout-view\" class=\"view view-login\">
@@ -103,7 +117,11 @@ class __TwigTemplate_3b8cd0df394778970f1c9342921af653cf46ab27b571a1dee20b0beb0d0
 
 ";
         
+<<<<<<< HEAD
         $__internal_de7370e99fcabedc59ea5607f035b7cb6e967451fc515def49ddc4244ea8bf21->leave($__internal_de7370e99fcabedc59ea5607f035b7cb6e967451fc515def49ddc4244ea8bf21_prof);
+=======
+        $__internal_243a451ac6b7d7c59428ab84e14fe15d6d835f728b608fb0447411b177e745ff->leave($__internal_243a451ac6b7d7c59428ab84e14fe15d6d835f728b608fb0447411b177e745ff_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -171,6 +189,10 @@ class __TwigTemplate_3b8cd0df394778970f1c9342921af653cf46ab27b571a1dee20b0beb0d0
         </div>
     </div>
 
+<<<<<<< HEAD
 {% endblock %}", "SfWebAppFrontOfficeBundle:Security:login.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Security/login.html.twig");
+=======
+{% endblock %}", "SfWebAppFrontOfficeBundle:Security:login.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Security/login.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

@@ -15,8 +15,13 @@ class __TwigTemplate_492b84766554dd8b8b7d54cc0c47ff916bc21b466dcb1176863592496f4
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_ca5d62078d57bf60334ff7323a66678384573ccd39ea571c17dc17c505b20666 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_ca5d62078d57bf60334ff7323a66678384573ccd39ea571c17dc17c505b20666->enter($__internal_ca5d62078d57bf60334ff7323a66678384573ccd39ea571c17dc17c505b20666_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:toolbar_item.html.twig"));
+=======
+        $__internal_1c377f5357d2e61047b18d49d56e9940347202daaaff8b4207c6cbb5f0ff6bbb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1c377f5357d2e61047b18d49d56e9940347202daaaff8b4207c6cbb5f0ff6bbb->enter($__internal_1c377f5357d2e61047b18d49d56e9940347202daaaff8b4207c6cbb5f0ff6bbb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:toolbar_item.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<div class=\"sf-toolbar-block sf-toolbar-block-";
@@ -49,7 +54,11 @@ class __TwigTemplate_492b84766554dd8b8b7d54cc0c47ff916bc21b466dcb1176863592496f4
 </div>
 ";
         
+<<<<<<< HEAD
         $__internal_ca5d62078d57bf60334ff7323a66678384573ccd39ea571c17dc17c505b20666->leave($__internal_ca5d62078d57bf60334ff7323a66678384573ccd39ea571c17dc17c505b20666_prof);
+=======
+        $__internal_1c377f5357d2e61047b18d49d56e9940347202daaaff8b4207c6cbb5f0ff6bbb->leave($__internal_1c377f5357d2e61047b18d49d56e9940347202daaaff8b4207c6cbb5f0ff6bbb_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -84,6 +93,10 @@ class __TwigTemplate_492b84766554dd8b8b7d54cc0c47ff916bc21b466dcb1176863592496f4
     {% if link is not defined or link %}</a>{% endif %}
         <div class=\"sf-toolbar-info\">{{ text|default('') }}</div>
 </div>
+<<<<<<< HEAD
 ", "WebProfilerBundle:Profiler:toolbar_item.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar_item.html.twig");
+=======
+", "WebProfilerBundle:Profiler:toolbar_item.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar_item.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

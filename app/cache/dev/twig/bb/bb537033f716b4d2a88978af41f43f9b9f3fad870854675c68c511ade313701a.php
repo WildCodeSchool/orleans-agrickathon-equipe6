@@ -15,8 +15,13 @@ class __TwigTemplate_ffb0e4a0a9d452fc07cc15e1b7fa5f7b881be40cddf632e3f0b50d146df
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_0d3e7d6a969bd44ea4d646343021508fd55b74cda4ee525cba9c1c44425d17a3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_0d3e7d6a969bd44ea4d646343021508fd55b74cda4ee525cba9c1c44425d17a3->enter($__internal_0d3e7d6a969bd44ea4d646343021508fd55b74cda4ee525cba9c1c44425d17a3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Profile:edit_content.html.twig"));
+=======
+        $__internal_1641d8a79a2dd3e5c7edd3b91204fc0c845663983f1b0662529a42ea858163d3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1641d8a79a2dd3e5c7edd3b91204fc0c845663983f1b0662529a42ea858163d3->enter($__internal_1641d8a79a2dd3e5c7edd3b91204fc0c845663983f1b0662529a42ea858163d3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Profile:edit_content.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<form action=\"";
@@ -37,7 +42,11 @@ class __TwigTemplate_ffb0e4a0a9d452fc07cc15e1b7fa5f7b881be40cddf632e3f0b50d146df
 </form>
 ";
         
+<<<<<<< HEAD
         $__internal_0d3e7d6a969bd44ea4d646343021508fd55b74cda4ee525cba9c1c44425d17a3->leave($__internal_0d3e7d6a969bd44ea4d646343021508fd55b74cda4ee525cba9c1c44425d17a3_prof);
+=======
+        $__internal_1641d8a79a2dd3e5c7edd3b91204fc0c845663983f1b0662529a42ea858163d3->leave($__internal_1641d8a79a2dd3e5c7edd3b91204fc0c845663983f1b0662529a42ea858163d3_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -72,6 +81,10 @@ class __TwigTemplate_ffb0e4a0a9d452fc07cc15e1b7fa5f7b881be40cddf632e3f0b50d146df
         <input type=\"submit\" value=\"{{ 'profile.edit.submit'|trans({}, 'FOSUserBundle') }}\" />
     </div>
 </form>
+<<<<<<< HEAD
 ", "FOSUserBundle:Profile:edit_content.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Profile/edit_content.html.twig");
+=======
+", "FOSUserBundle:Profile:edit_content.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Profile/edit_content.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

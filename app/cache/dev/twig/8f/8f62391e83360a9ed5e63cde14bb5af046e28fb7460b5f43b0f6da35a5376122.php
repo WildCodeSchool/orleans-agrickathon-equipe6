@@ -15,8 +15,13 @@ class __TwigTemplate_7bb6d756389d407a64b66ff50909a5b0b518876e280a3facf9c10f12474
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_98712268d7c69b2ad9a74d62438c6ce8e309ace705b4da747a66e98b3a66519f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_98712268d7c69b2ad9a74d62438c6ce8e309ace705b4da747a66e98b3a66519f->enter($__internal_98712268d7c69b2ad9a74d62438c6ce8e309ace705b4da747a66e98b3a66519f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_rest.html.php"));
+=======
+        $__internal_44c7c284ab7975f9a50b182c7dcd9f4a6e307e8c1172b49f75bbf8b8915d1a14 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_44c7c284ab7975f9a50b182c7dcd9f4a6e307e8c1172b49f75bbf8b8915d1a14->enter($__internal_44c7c284ab7975f9a50b182c7dcd9f4a6e307e8c1172b49f75bbf8b8915d1a14_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_rest.html.php"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<?php foreach (\$form as \$child): ?>
@@ -26,7 +31,11 @@ class __TwigTemplate_7bb6d756389d407a64b66ff50909a5b0b518876e280a3facf9c10f12474
 <?php endforeach; ?>
 ";
         
+<<<<<<< HEAD
         $__internal_98712268d7c69b2ad9a74d62438c6ce8e309ace705b4da747a66e98b3a66519f->leave($__internal_98712268d7c69b2ad9a74d62438c6ce8e309ace705b4da747a66e98b3a66519f_prof);
+=======
+        $__internal_44c7c284ab7975f9a50b182c7dcd9f4a6e307e8c1172b49f75bbf8b8915d1a14->leave($__internal_44c7c284ab7975f9a50b182c7dcd9f4a6e307e8c1172b49f75bbf8b8915d1a14_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -55,6 +64,10 @@ class __TwigTemplate_7bb6d756389d407a64b66ff50909a5b0b518876e280a3facf9c10f12474
         <?php echo \$view['form']->row(\$child) ?>
     <?php endif; ?>
 <?php endforeach; ?>
+<<<<<<< HEAD
 ", "@Framework/Form/form_rest.html.php", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_rest.html.php");
+=======
+", "@Framework/Form/form_rest.html.php", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_rest.html.php");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

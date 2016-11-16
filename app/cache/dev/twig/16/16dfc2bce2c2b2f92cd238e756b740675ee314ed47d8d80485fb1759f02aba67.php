@@ -15,14 +15,23 @@ class __TwigTemplate_908e632314bd98e88933af47acc11842162e050af58df1d1a9ac4f5eb98
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_0f4b192f01cbce8aab83222fddc968d4ddca66435a2544635da1ef1a5ead538d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_0f4b192f01cbce8aab83222fddc968d4ddca66435a2544635da1ef1a5ead538d->enter($__internal_0f4b192f01cbce8aab83222fddc968d4ddca66435a2544635da1ef1a5ead538d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/integer_widget.html.php"));
+=======
+        $__internal_698ac475d3e733c53d48095485fd99b49ac0306297ed5524819fadb14080696b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_698ac475d3e733c53d48095485fd99b49ac0306297ed5524819fadb14080696b->enter($__internal_698ac475d3e733c53d48095485fd99b49ac0306297ed5524819fadb14080696b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/integer_widget.html.php"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<?php echo \$view['form']->block(\$form, 'form_widget_simple', array('type' => isset(\$type) ? \$type : 'number')) ?>
 ";
         
+<<<<<<< HEAD
         $__internal_0f4b192f01cbce8aab83222fddc968d4ddca66435a2544635da1ef1a5ead538d->leave($__internal_0f4b192f01cbce8aab83222fddc968d4ddca66435a2544635da1ef1a5ead538d_prof);
+=======
+        $__internal_698ac475d3e733c53d48095485fd99b49ac0306297ed5524819fadb14080696b->leave($__internal_698ac475d3e733c53d48095485fd99b49ac0306297ed5524819fadb14080696b_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -47,6 +56,10 @@ class __TwigTemplate_908e632314bd98e88933af47acc11842162e050af58df1d1a9ac4f5eb98
     public function getSourceContext()
     {
         return new Twig_Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', array('type' => isset(\$type) ? \$type : 'number')) ?>
+<<<<<<< HEAD
 ", "@Framework/Form/integer_widget.html.php", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/integer_widget.html.php");
+=======
+", "@Framework/Form/integer_widget.html.php", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/integer_widget.html.php");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

@@ -15,8 +15,13 @@ class __TwigTemplate_9ba726ed133fc652abcc72b44de7560526b9fda5ab9d84ee3e5d401b175
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_2f0c09bd8c2b1e5224e424e7cf35e01c07f059eae6e054a5c067a88bd2415083 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_2f0c09bd8c2b1e5224e424e7cf35e01c07f059eae6e054a5c067a88bd2415083->enter($__internal_2f0c09bd8c2b1e5224e424e7cf35e01c07f059eae6e054a5c067a88bd2415083_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Resetting/inc:email.html.twig"));
+=======
+        $__internal_129e8141a4fc2345144f5840e65ed6c3d57cbcd90052e36adb72b15e93192cbc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_129e8141a4fc2345144f5840e65ed6c3d57cbcd90052e36adb72b15e93192cbc->enter($__internal_129e8141a4fc2345144f5840e65ed6c3d57cbcd90052e36adb72b15e93192cbc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Resetting/inc:email.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<html>
@@ -76,7 +81,11 @@ class __TwigTemplate_9ba726ed133fc652abcc72b44de7560526b9fda5ab9d84ee3e5d401b175
 </body>
 </html>";
         
+<<<<<<< HEAD
         $__internal_2f0c09bd8c2b1e5224e424e7cf35e01c07f059eae6e054a5c067a88bd2415083->leave($__internal_2f0c09bd8c2b1e5224e424e7cf35e01c07f059eae6e054a5c067a88bd2415083_prof);
+=======
+        $__internal_129e8141a4fc2345144f5840e65ed6c3d57cbcd90052e36adb72b15e93192cbc->leave($__internal_129e8141a4fc2345144f5840e65ed6c3d57cbcd90052e36adb72b15e93192cbc_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -155,6 +164,10 @@ class __TwigTemplate_9ba726ed133fc652abcc72b44de7560526b9fda5ab9d84ee3e5d401b175
         </table>
     </span>
 </body>
+<<<<<<< HEAD
 </html>", "SfWebAppFrontOfficeBundle:Resetting/inc:email.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Resetting/inc/email.html.twig");
+=======
+</html>", "SfWebAppFrontOfficeBundle:Resetting/inc:email.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Resetting/inc/email.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

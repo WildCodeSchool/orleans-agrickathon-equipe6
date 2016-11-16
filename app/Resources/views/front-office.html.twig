@@ -20,14 +20,14 @@
         {#'@SfWebAppFrontOfficeBundle/Resources/public/css/libs/jquery-ui.min.css'#}
         {#'@SfWebAppFrontOfficeBundle/Resources/public/css/libs/jquery-ui.structure.min.css'#}
         {#'@SfWebAppFrontOfficeBundle/Resources/public/css/libs/jquery.dataTables.min.css'#}
-        {#'@SfWebAppFrontOfficeBundle/Resources/public/css/front-office.css' %}#}
+        {#'@SfWebAppFrontOfficeBundle/Resources/public/css/front-office.css'#}
         <link rel="stylesheet" href="{{ 'asset_url' }}" type="text/css" />
         {#{% endstylesheets %}#}
     {% endblock %}
 </head>
 <body>
 <div class="container">
-    {% block header %}{% endblock %}
+    {% block header %}<h1>Header</h1>{% endblock %}
     {% block flash %}
         {% for flashMessage in app.session.flashbag.get('notice') %}
             <div>

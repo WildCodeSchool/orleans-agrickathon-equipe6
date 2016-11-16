@@ -15,8 +15,13 @@ class __TwigTemplate_f8933fc0072e9603a047bbc1fb789b24c7bf04a66fddc1834d130bd26e9
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_f3796bc06cd739d77584b997b094d66e3d401222e7328ace6a6ef805a673651e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_f3796bc06cd739d77584b997b094d66e3d401222e7328ace6a6ef805a673651e->enter($__internal_f3796bc06cd739d77584b997b094d66e3d401222e7328ace6a6ef805a673651e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/exception.svg"));
+=======
+        $__internal_133cd2dc20309a29b1cf3b850c5bbdf517b5d3cb6fe6b78231be2d536ad71c8b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_133cd2dc20309a29b1cf3b850c5bbdf517b5d3cb6fe6b78231be2d536ad71c8b->enter($__internal_133cd2dc20309a29b1cf3b850c5bbdf517b5d3cb6fe6b78231be2d536ad71c8b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/exception.svg"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -36,7 +41,11 @@ class __TwigTemplate_f8933fc0072e9603a047bbc1fb789b24c7bf04a66fddc1834d130bd26e9
 </svg>
 ";
         
+<<<<<<< HEAD
         $__internal_f3796bc06cd739d77584b997b094d66e3d401222e7328ace6a6ef805a673651e->leave($__internal_f3796bc06cd739d77584b997b094d66e3d401222e7328ace6a6ef805a673651e_prof);
+=======
+        $__internal_133cd2dc20309a29b1cf3b850c5bbdf517b5d3cb6fe6b78231be2d536ad71c8b->leave($__internal_133cd2dc20309a29b1cf3b850c5bbdf517b5d3cb6fe6b78231be2d536ad71c8b_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -75,6 +84,10 @@ class __TwigTemplate_f8933fc0072e9603a047bbc1fb789b24c7bf04a66fddc1834d130bd26e9
     c-0.6,0-1.2,0.5-1.2,1.2c0,0.6,0.5,1.2,1.1,1.2c0,0,0,0,0,0c-1.3,0-2.3-1.2-2.3-2.6c0-1.5,1-2.5,2.3-2.5c1.3,0,2.3,1.1,2.3,2.5
     C17.1,9.8,16.2,10.9,15,11z\"/>
 </svg>
+<<<<<<< HEAD
 ", "@WebProfiler/Icon/exception.svg", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/exception.svg");
+=======
+", "@WebProfiler/Icon/exception.svg", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Icon/exception.svg");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

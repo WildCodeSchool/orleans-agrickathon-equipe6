@@ -15,8 +15,13 @@ class __TwigTemplate_71036ef8c63aafee2531480cc1a950b637c7a6c90794a21df8917c59110
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_fdf65844fad77043528f6653d778faf2456f6263877e405c17bf4775980240e7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_fdf65844fad77043528f6653d778faf2456f6263877e405c17bf4775980240e7->enter($__internal_fdf65844fad77043528f6653d778faf2456f6263877e405c17bf4775980240e7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:trace.txt.twig"));
+=======
+        $__internal_aff8f639b4dd09cdf67043c8f3211b7d3dedec522b27a5f70bd3916b73943570 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_aff8f639b4dd09cdf67043c8f3211b7d3dedec522b27a5f70bd3916b73943570->enter($__internal_aff8f639b4dd09cdf67043c8f3211b7d3dedec522b27a5f70bd3916b73943570_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:trace.txt.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 1
         if ($this->getAttribute((isset($context["trace"]) ? $context["trace"] : $this->getContext($context, "trace")), "function", array())) {
@@ -43,7 +48,11 @@ class __TwigTemplate_71036ef8c63aafee2531480cc1a950b637c7a6c90794a21df8917c59110
 ";
         }
         
+<<<<<<< HEAD
         $__internal_fdf65844fad77043528f6653d778faf2456f6263877e405c17bf4775980240e7->leave($__internal_fdf65844fad77043528f6653d778faf2456f6263877e405c17bf4775980240e7_prof);
+=======
+        $__internal_aff8f639b4dd09cdf67043c8f3211b7d3dedec522b27a5f70bd3916b73943570->leave($__internal_aff8f639b4dd09cdf67043c8f3211b7d3dedec522b27a5f70bd3916b73943570_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -80,6 +89,10 @@ class __TwigTemplate_71036ef8c63aafee2531480cc1a950b637c7a6c90794a21df8917c59110
 {% if trace.file is defined and trace.line is defined %}
         in {{ trace.file }} line {{ trace.line }}
 {% endif %}
+<<<<<<< HEAD
 ", "TwigBundle:Exception:trace.txt.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/trace.txt.twig");
+=======
+", "TwigBundle:Exception:trace.txt.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/trace.txt.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

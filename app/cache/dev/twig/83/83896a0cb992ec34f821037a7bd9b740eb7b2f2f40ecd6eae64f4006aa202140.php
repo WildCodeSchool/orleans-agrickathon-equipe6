@@ -21,20 +21,34 @@ class __TwigTemplate_949da7301e9b2dd067b433d4a3503b476b54cdf912d52ef4b8aa2578878
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_ea75a644e3fe1e5d48d5e80c5ab82348397e4fd452fc3d58f7cfef3bc58ca164 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_ea75a644e3fe1e5d48d5e80c5ab82348397e4fd452fc3d58f7cfef3bc58ca164->enter($__internal_ea75a644e3fe1e5d48d5e80c5ab82348397e4fd452fc3d58f7cfef3bc58ca164_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Resetting:request.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
         $__internal_ea75a644e3fe1e5d48d5e80c5ab82348397e4fd452fc3d58f7cfef3bc58ca164->leave($__internal_ea75a644e3fe1e5d48d5e80c5ab82348397e4fd452fc3d58f7cfef3bc58ca164_prof);
+=======
+        $__internal_0b31c0f2ebf132910bbe26500be79629f40f7d3031c7d39277468afa92460c12 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0b31c0f2ebf132910bbe26500be79629f40f7d3031c7d39277468afa92460c12->enter($__internal_0b31c0f2ebf132910bbe26500be79629f40f7d3031c7d39277468afa92460c12_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Resetting:request.html.twig"));
+
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_0b31c0f2ebf132910bbe26500be79629f40f7d3031c7d39277468afa92460c12->leave($__internal_0b31c0f2ebf132910bbe26500be79629f40f7d3031c7d39277468afa92460c12_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_873f68a78311ec0530f1b501f951bea83da0b41c336c714199fa04904f1ba989 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_873f68a78311ec0530f1b501f951bea83da0b41c336c714199fa04904f1ba989->enter($__internal_873f68a78311ec0530f1b501f951bea83da0b41c336c714199fa04904f1ba989_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle:Resetting:request.html.twig"));
+=======
+        $__internal_f8d21b32dcd1dc3f7273c93c03951e9a4c99924f70a6e80d55e7c42fa33c2799 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f8d21b32dcd1dc3f7273c93c03951e9a4c99924f70a6e80d55e7c42fa33c2799->enter($__internal_f8d21b32dcd1dc3f7273c93c03951e9a4c99924f70a6e80d55e7c42fa33c2799_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle:Resetting:request.html.twig"));
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
         // line 4
         echo "    <div class=\"row\" >
@@ -80,7 +94,11 @@ class __TwigTemplate_949da7301e9b2dd067b433d4a3503b476b54cdf912d52ef4b8aa2578878
     </div>
 ";
         
+<<<<<<< HEAD
         $__internal_873f68a78311ec0530f1b501f951bea83da0b41c336c714199fa04904f1ba989->leave($__internal_873f68a78311ec0530f1b501f951bea83da0b41c336c714199fa04904f1ba989_prof);
+=======
+        $__internal_f8d21b32dcd1dc3f7273c93c03951e9a4c99924f70a6e80d55e7c42fa33c2799->leave($__internal_f8d21b32dcd1dc3f7273c93c03951e9a4c99924f70a6e80d55e7c42fa33c2799_prof);
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
 
     }
 
@@ -133,6 +151,10 @@ class __TwigTemplate_949da7301e9b2dd067b433d4a3503b476b54cdf912d52ef4b8aa2578878
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 {% endblock %}", "SfWebAppFrontOfficeBundle:Resetting:request.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Resetting/request.html.twig");
+=======
+{% endblock %}", "SfWebAppFrontOfficeBundle:Resetting:request.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Resetting/request.html.twig");
+>>>>>>> ee4a6d11689aea337e288d2be1214cc6452a2d3c
     }
 }

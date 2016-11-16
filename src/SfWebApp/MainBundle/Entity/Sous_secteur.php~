@@ -1,0 +1,274 @@
+<?php
+
+namespace SfWebApp\MainBundle\Entity;
+
+/**
+ * Sous_secteur
+ */
+class Sous_secteur
+{
+    /**
+     * @var int
+     */
+    private $id;
+
+    /**
+     * @var string
+     */
+    private $grandesCultures;
+
+    /**
+     * @var string
+     */
+    private $vigne;
+
+    /**
+     * @var string
+     */
+    private $fruitsLegumes;
+
+    /**
+     * @var string
+     */
+    private $elevage;
+
+    /**
+     * @var string
+     */
+    private $lait;
+
+    /**
+     * @var string
+     */
+    private $produitsAlimentaires;
+
+    /**
+     * @var string
+     */
+    private $sucre;
+
+
+    /**
+     * Get id
+     *
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set grandesCultures
+     *
+     * @param string $grandesCultures
+     *
+     * @return Sous_secteur
+     */
+    public function setGrandesCultures($grandesCultures)
+    {
+        $this->grandesCultures = $grandesCultures;
+
+        return $this;
+    }
+
+    /**
+     * Get grandesCultures
+     *
+     * @return string
+     */
+    public function getGrandesCultures()
+    {
+        return $this->grandesCultures;
+    }
+
+    /**
+     * Set vigne
+     *
+     * @param string $vigne
+     *
+     * @return Sous_secteur
+     */
+    public function setVigne($vigne)
+    {
+        $this->vigne = $vigne;
+
+        return $this;
+    }
+
+    /**
+     * Get vigne
+     *
+     * @return string
+     */
+    public function getVigne()
+    {
+        return $this->vigne;
+    }
+
+    /**
+     * Set fruitsLegumes
+     *
+     * @param string $fruitsLegumes
+     *
+     * @return Sous_secteur
+     */
+    public function setFruitsLegumes($fruitsLegumes)
+    {
+        $this->fruitsLegumes = $fruitsLegumes;
+
+        return $this;
+    }
+
+    /**
+     * Get fruitsLegumes
+     *
+     * @return string
+     */
+    public function getFruitsLegumes()
+    {
+        return $this->fruitsLegumes;
+    }
+
+    /**
+     * Set elevage
+     *
+     * @param string $elevage
+     *
+     * @return Sous_secteur
+     */
+    public function setElevage($elevage)
+    {
+        $this->elevage = $elevage;
+
+        return $this;
+    }
+
+    /**
+     * Get elevage
+     *
+     * @return string
+     */
+    public function getElevage()
+    {
+        return $this->elevage;
+    }
+
+    /**
+     * Set lait
+     *
+     * @param string $lait
+     *
+     * @return Sous_secteur
+     */
+    public function setLait($lait)
+    {
+        $this->lait = $lait;
+
+        return $this;
+    }
+
+    /**
+     * Get lait
+     *
+     * @return string
+     */
+    public function getLait()
+    {
+        return $this->lait;
+    }
+
+    /**
+     * Set produitsAlimentaires
+     *
+     * @param string $produitsAlimentaires
+     *
+     * @return Sous_secteur
+     */
+    public function setProduitsAlimentaires($produitsAlimentaires)
+    {
+        $this->produitsAlimentaires = $produitsAlimentaires;
+
+        return $this;
+    }
+
+    /**
+     * Get produitsAlimentaires
+     *
+     * @return string
+     */
+    public function getProduitsAlimentaires()
+    {
+        return $this->produitsAlimentaires;
+    }
+
+    /**
+     * Set sucre
+     *
+     * @param string $sucre
+     *
+     * @return Sous_secteur
+     */
+    public function setSucre($sucre)
+    {
+        $this->sucre = $sucre;
+
+        return $this;
+    }
+
+    /**
+     * Get sucre
+     *
+     * @return string
+     */
+    public function getSucre()
+    {
+        return $this->sucre;
+    }
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     */
+    private $sous_secteurs;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->sous_secteurs = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+    /**
+     * Add sousSecteur
+     *
+     * @param \SfWebAppMainBundle\Entity\Inscription $sousSecteur
+     *
+     * @return Sous_secteur
+     */
+    public function addSousSecteur(\SfWebAppMainBundle\Entity\Inscription $sousSecteur)
+    {
+        $this->sous_secteurs[] = $sousSecteur;
+
+        return $this;
+    }
+
+    /**
+     * Remove sousSecteur
+     *
+     * @param \SfWebAppMainBundle\Entity\Inscription $sousSecteur
+     */
+    public function removeSousSecteur(\SfWebAppMainBundle\Entity\Inscription $sousSecteur)
+    {
+        $this->sous_secteurs->removeElement($sousSecteur);
+    }
+
+    /**
+     * Get sousSecteurs
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getSousSecteurs()
+    {
+        return $this->sous_secteurs;
+    }
+}
