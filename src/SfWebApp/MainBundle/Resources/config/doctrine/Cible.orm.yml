@@ -1,0 +1,26 @@
+SfWebApp\MainBundle\Entity\Cible:
+    type: entity
+    table: null
+    repositoryClass: SfWebApp\MainBundle\Repository\CibleRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        btob:
+            type: string
+            length: '100'
+        btoc:
+            type: string
+            length: '100'
+        btobtoc:
+            type: string
+            length: '100'
+    lifecycleCallbacks: {  }
+
+    oneToMany:
+        cibles:
+            targetEntity: SfWebApp\MainBundle\Entity\Inscription
+            mappedBy: cible

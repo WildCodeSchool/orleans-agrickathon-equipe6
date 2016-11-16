@@ -1,0 +1,41 @@
+SfWebApp\MainBundle\Entity\Sous_secteur:
+    type: entity
+    table: null
+    repositoryClass: SfWebApp\MainBundle\Repository\Sous_secteurRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        grandesCultures:
+            type: string
+            length: '100'
+            column: grandes_cultures
+        vigne:
+            type: string
+            length: '100'
+        fruitsLegumes:
+            type: string
+            length: '100'
+            column: fruits_legumes
+        elevage:
+            type: string
+            length: '100'
+        lait:
+            type: string
+            length: '100'
+        produitsAlimentaires:
+            type: string
+            length: '100'
+            column: produits_alimentaires
+        sucre:
+            type: string
+            length: '100'
+    lifecycleCallbacks: {  }
+
+    oneToMany:
+        soussecteurs:
+            targetEntity: SfWebApp\MainBundle\Entity\Inscription
+            mappedBy: soussecteur

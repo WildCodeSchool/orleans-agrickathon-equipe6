@@ -1,0 +1,48 @@
+SfWebApp\MainBundle\Entity\Secteur:
+    type: entity
+    table: null
+    repositoryClass: SfWebApp\MainBundle\Repository\SecteurRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        productionVegetale:
+            type: string
+            length: '100'
+            column: production_vegetale
+        productionAnimale:
+            type: string
+            length: '100'
+            column: production_animale
+        premiereTransfo:
+            type: string
+            length: '100'
+            column: premiere_transfo
+        deuxiemeTransfo:
+            type: string
+            length: '100'
+            column: deuxieme_transfo
+        distributionGMS:
+            type: string
+            length: '100'
+            column: distribution_GMS
+        distributionCc:
+            type: string
+            length: '100'
+            column: distribution_cc
+        distributionAutre:
+            type: string
+            length: '100'
+            column: distribution_autre
+        restauration:
+            type: string
+            length: '100'
+    lifecycleCallbacks: {  }
+
+    oneToMany:
+        secteurs:
+            targetEntity: SfWebApp\MainBundle\Entity\Inscription
+            mappedBy: secteur
