@@ -106,7 +106,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         // sf_web_app_cms_homepage
-        if (rtrim($pathinfo, '/') === '/cms') {
+        if (rtrim($pathinfo, '/') === '/homepage') {
             if (substr($pathinfo, -1) !== '/') {
                 return $this->redirect($pathinfo.'/', 'sf_web_app_cms_homepage');
             }

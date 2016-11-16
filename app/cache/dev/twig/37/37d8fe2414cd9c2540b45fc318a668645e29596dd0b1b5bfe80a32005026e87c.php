@@ -15,15 +15,15 @@ class __TwigTemplate_1a110b4647c5fa3d75b07e261e1829a0985833c5f8e795385e546119de0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e116dee4cccf2782750806fb9c74822c5f6fda890ee0c9b6dbe03db163584a88 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e116dee4cccf2782750806fb9c74822c5f6fda890ee0c9b6dbe03db163584a88->enter($__internal_e116dee4cccf2782750806fb9c74822c5f6fda890ee0c9b6dbe03db163584a88_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.json.twig"));
+        $__internal_f2d3e95b61ea87d1f1582ae8f3f7cd77b0554e3a4d9bbecf1042266b081e5dc3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f2d3e95b61ea87d1f1582ae8f3f7cd77b0554e3a4d9bbecf1042266b081e5dc3->enter($__internal_f2d3e95b61ea87d1f1582ae8f3f7cd77b0554e3a4d9bbecf1042266b081e5dc3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.json.twig"));
 
         // line 1
         echo twig_jsonencode_filter(array("error" => array("code" => (isset($context["status_code"]) ? $context["status_code"] : $this->getContext($context, "status_code")), "message" => (isset($context["status_text"]) ? $context["status_text"] : $this->getContext($context, "status_text")))));
         echo "
 ";
         
-        $__internal_e116dee4cccf2782750806fb9c74822c5f6fda890ee0c9b6dbe03db163584a88->leave($__internal_e116dee4cccf2782750806fb9c74822c5f6fda890ee0c9b6dbe03db163584a88_prof);
+        $__internal_f2d3e95b61ea87d1f1582ae8f3f7cd77b0554e3a4d9bbecf1042266b081e5dc3->leave($__internal_f2d3e95b61ea87d1f1582ae8f3f7cd77b0554e3a4d9bbecf1042266b081e5dc3_prof);
 
     }
 
@@ -53,6 +53,6 @@ class __TwigTemplate_1a110b4647c5fa3d75b07e261e1829a0985833c5f8e795385e546119de0
     public function getSourceContext()
     {
         return new Twig_Source("{{ { 'error': { 'code': status_code, 'message': status_text } }|json_encode|raw }}
-", "TwigBundle:Exception:error.json.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.json.twig");
+", "TwigBundle:Exception:error.json.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.json.twig");
     }
 }

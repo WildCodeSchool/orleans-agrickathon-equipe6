@@ -15,8 +15,8 @@ class __TwigTemplate_f1bf80063fa039f50fe34fe4e8d5a7ad9e6ee5dd7ecef80210459ff6dff
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_aff8d269a242e4d288fd0b6c8b64f40958b60d441fdd96617ec9cd18811d4438 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_aff8d269a242e4d288fd0b6c8b64f40958b60d441fdd96617ec9cd18811d4438->enter($__internal_aff8d269a242e4d288fd0b6c8b64f40958b60d441fdd96617ec9cd18811d4438_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:traces.html.twig"));
+        $__internal_5b7b1db16eb1567938e4d057f0f4b3aedaf1f97e1fe4a094b92c98b1caf84a85 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5b7b1db16eb1567938e4d057f0f4b3aedaf1f97e1fe4a094b92c98b1caf84a85->enter($__internal_5b7b1db16eb1567938e4d057f0f4b3aedaf1f97e1fe4a094b92c98b1caf84a85_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:traces.html.twig"));
 
         // line 1
         echo "<div class=\"block\">
@@ -105,7 +105,7 @@ class __TwigTemplate_f1bf80063fa039f50fe34fe4e8d5a7ad9e6ee5dd7ecef80210459ff6dff
 </div>
 ";
         
-        $__internal_aff8d269a242e4d288fd0b6c8b64f40958b60d441fdd96617ec9cd18811d4438->leave($__internal_aff8d269a242e4d288fd0b6c8b64f40958b60d441fdd96617ec9cd18811d4438_prof);
+        $__internal_5b7b1db16eb1567938e4d057f0f4b3aedaf1f97e1fe4a094b92c98b1caf84a85->leave($__internal_5b7b1db16eb1567938e4d057f0f4b3aedaf1f97e1fe4a094b92c98b1caf84a85_prof);
 
     }
 
@@ -159,6 +159,6 @@ class __TwigTemplate_f1bf80063fa039f50fe34fe4e8d5a7ad9e6ee5dd7ecef80210459ff6dff
         {% endfor %}
     </ol>
 </div>
-", "TwigBundle:Exception:traces.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/traces.html.twig");
+", "TwigBundle:Exception:traces.html.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/traces.html.twig");
     }
 }

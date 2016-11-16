@@ -15,13 +15,13 @@ class __TwigTemplate_bdb272884df4f77eca74077e4d91328b8dc2bf5d520f85a07418a010154
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_580f58bc47ca78075246f76a750ff07c04e87018dadfdaa20ec08a9019735f67 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_580f58bc47ca78075246f76a750ff07c04e87018dadfdaa20ec08a9019735f67->enter($__internal_580f58bc47ca78075246f76a750ff07c04e87018dadfdaa20ec08a9019735f67_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.rdf.twig"));
+        $__internal_5ddc6c90be36dc0450f374ced162a3774c5fcdcf20db47ba88141b7c29e041ec = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5ddc6c90be36dc0450f374ced162a3774c5fcdcf20db47ba88141b7c29e041ec->enter($__internal_5ddc6c90be36dc0450f374ced162a3774c5fcdcf20db47ba88141b7c29e041ec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.rdf.twig"));
 
         // line 1
         $this->loadTemplate("@Twig/Exception/error.xml.twig", "TwigBundle:Exception:error.rdf.twig", 1)->display($context);
         
-        $__internal_580f58bc47ca78075246f76a750ff07c04e87018dadfdaa20ec08a9019735f67->leave($__internal_580f58bc47ca78075246f76a750ff07c04e87018dadfdaa20ec08a9019735f67_prof);
+        $__internal_5ddc6c90be36dc0450f374ced162a3774c5fcdcf20db47ba88141b7c29e041ec->leave($__internal_5ddc6c90be36dc0450f374ced162a3774c5fcdcf20db47ba88141b7c29e041ec_prof);
 
     }
 
@@ -46,6 +46,6 @@ class __TwigTemplate_bdb272884df4f77eca74077e4d91328b8dc2bf5d520f85a07418a010154
     public function getSourceContext()
     {
         return new Twig_Source("{% include '@Twig/Exception/error.xml.twig' %}
-", "TwigBundle:Exception:error.rdf.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.rdf.twig");
+", "TwigBundle:Exception:error.rdf.twig", "/home/wilder4/Documents/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.rdf.twig");
     }
 }
