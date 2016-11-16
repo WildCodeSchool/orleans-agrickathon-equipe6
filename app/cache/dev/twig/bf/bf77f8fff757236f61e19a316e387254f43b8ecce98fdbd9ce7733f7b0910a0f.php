@@ -15,8 +15,8 @@ class __TwigTemplate_9ba726ed133fc652abcc72b44de7560526b9fda5ab9d84ee3e5d401b175
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_4cbd9f0b8bf5446dc29f999a9b1be0da3e7f9fb4b2a3bd70d469526c70aca1b3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4cbd9f0b8bf5446dc29f999a9b1be0da3e7f9fb4b2a3bd70d469526c70aca1b3->enter($__internal_4cbd9f0b8bf5446dc29f999a9b1be0da3e7f9fb4b2a3bd70d469526c70aca1b3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Resetting/inc:email.html.twig"));
+        $__internal_2f0c09bd8c2b1e5224e424e7cf35e01c07f059eae6e054a5c067a88bd2415083 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2f0c09bd8c2b1e5224e424e7cf35e01c07f059eae6e054a5c067a88bd2415083->enter($__internal_2f0c09bd8c2b1e5224e424e7cf35e01c07f059eae6e054a5c067a88bd2415083_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Resetting/inc:email.html.twig"));
 
         // line 1
         echo "<html>
@@ -76,7 +76,7 @@ class __TwigTemplate_9ba726ed133fc652abcc72b44de7560526b9fda5ab9d84ee3e5d401b175
 </body>
 </html>";
         
-        $__internal_4cbd9f0b8bf5446dc29f999a9b1be0da3e7f9fb4b2a3bd70d469526c70aca1b3->leave($__internal_4cbd9f0b8bf5446dc29f999a9b1be0da3e7f9fb4b2a3bd70d469526c70aca1b3_prof);
+        $__internal_2f0c09bd8c2b1e5224e424e7cf35e01c07f059eae6e054a5c067a88bd2415083->leave($__internal_2f0c09bd8c2b1e5224e424e7cf35e01c07f059eae6e054a5c067a88bd2415083_prof);
 
     }
 

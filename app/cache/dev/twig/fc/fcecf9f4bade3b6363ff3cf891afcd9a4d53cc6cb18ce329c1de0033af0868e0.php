@@ -15,8 +15,8 @@ class __TwigTemplate_8a212084b0e294ec68f4b15cc2efa7860485cd245724e24d575cb8f0f8c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f5d97bfbd343173a2ccfd14f3cfb2b2286c21a17d40293a81d0c0b1ba2b5caaf = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f5d97bfbd343173a2ccfd14f3cfb2b2286c21a17d40293a81d0c0b1ba2b5caaf->enter($__internal_f5d97bfbd343173a2ccfd14f3cfb2b2286c21a17d40293a81d0c0b1ba2b5caaf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Profile/Registration/inc:email.html.twig"));
+        $__internal_ce72045c126bb22853225b742f255d87c8abb753bb92020c2c9a19bf02a8bdff = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ce72045c126bb22853225b742f255d87c8abb753bb92020c2c9a19bf02a8bdff->enter($__internal_ce72045c126bb22853225b742f255d87c8abb753bb92020c2c9a19bf02a8bdff_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Profile/Registration/inc:email.html.twig"));
 
         // line 1
         echo "<html>
@@ -79,7 +79,7 @@ class __TwigTemplate_8a212084b0e294ec68f4b15cc2efa7860485cd245724e24d575cb8f0f8c
 </body>
 </html>";
         
-        $__internal_f5d97bfbd343173a2ccfd14f3cfb2b2286c21a17d40293a81d0c0b1ba2b5caaf->leave($__internal_f5d97bfbd343173a2ccfd14f3cfb2b2286c21a17d40293a81d0c0b1ba2b5caaf_prof);
+        $__internal_ce72045c126bb22853225b742f255d87c8abb753bb92020c2c9a19bf02a8bdff->leave($__internal_ce72045c126bb22853225b742f255d87c8abb753bb92020c2c9a19bf02a8bdff_prof);
 
     }
 
