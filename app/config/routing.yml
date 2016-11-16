@@ -1,10 +1,10 @@
 sf_web_app_cms:
     resource: "@SfWebAppCmsBundle/Resources/config/routing.yml"
-    prefix:   /cms
+    prefix:   /homepage
 
 sf_web_app_front_office:
     resource: "@SfWebAppFrontOfficeBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /frontoffice
 
 sf_web_app_back_office:
     resource: "@SfWebAppBackOfficeBundle/Resources/config/routing.yml"

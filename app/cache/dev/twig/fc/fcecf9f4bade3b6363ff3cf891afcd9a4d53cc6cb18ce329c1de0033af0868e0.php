@@ -15,8 +15,8 @@ class __TwigTemplate_8a212084b0e294ec68f4b15cc2efa7860485cd245724e24d575cb8f0f8c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f8ef644949a4a6359536992289ccd5816703b8b080104e7c6fabc118929e5467 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f8ef644949a4a6359536992289ccd5816703b8b080104e7c6fabc118929e5467->enter($__internal_f8ef644949a4a6359536992289ccd5816703b8b080104e7c6fabc118929e5467_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Profile/Registration/inc:email.html.twig"));
+        $__internal_8c46bd2bb5937b42a15ed556f00b388bbf5672bfe9ddb2808d8d30fe2805bc3a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8c46bd2bb5937b42a15ed556f00b388bbf5672bfe9ddb2808d8d30fe2805bc3a->enter($__internal_8c46bd2bb5937b42a15ed556f00b388bbf5672bfe9ddb2808d8d30fe2805bc3a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Profile/Registration/inc:email.html.twig"));
 
         // line 1
         echo "<html>
@@ -79,7 +79,7 @@ class __TwigTemplate_8a212084b0e294ec68f4b15cc2efa7860485cd245724e24d575cb8f0f8c
 </body>
 </html>";
         
-        $__internal_f8ef644949a4a6359536992289ccd5816703b8b080104e7c6fabc118929e5467->leave($__internal_f8ef644949a4a6359536992289ccd5816703b8b080104e7c6fabc118929e5467_prof);
+        $__internal_8c46bd2bb5937b42a15ed556f00b388bbf5672bfe9ddb2808d8d30fe2805bc3a->leave($__internal_8c46bd2bb5937b42a15ed556f00b388bbf5672bfe9ddb2808d8d30fe2805bc3a_prof);
 
     }
 
@@ -161,6 +161,6 @@ class __TwigTemplate_8a212084b0e294ec68f4b15cc2efa7860485cd245724e24d575cb8f0f8c
         </table>
     </span>
 </body>
-</html>", "SfWebAppFrontOfficeBundle:Profile/Registration/inc:email.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/src/SfWebApp/FrontOfficeBundle/Resources/views/Profile/Registration/inc/email.html.twig");
+</html>", "SfWebAppFrontOfficeBundle:Profile/Registration/inc:email.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Profile/Registration/inc/email.html.twig");
     }
 }

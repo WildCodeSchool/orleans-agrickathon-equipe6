@@ -15,8 +15,8 @@ class __TwigTemplate_7a130a705a3e452a840b82d2b0e14aa3f660aae970a266df419fd62bf70
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_56ae157ce2cd66e6b3c42218aceeba81a58474372f0fb718b84405da73a31ba4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_56ae157ce2cd66e6b3c42218aceeba81a58474372f0fb718b84405da73a31ba4->enter($__internal_56ae157ce2cd66e6b3c42218aceeba81a58474372f0fb718b84405da73a31ba4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.txt.twig"));
+        $__internal_2615290f9a71eb3d377023230be00a0e1c06196b4178c75eee19b14d18a036ae = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2615290f9a71eb3d377023230be00a0e1c06196b4178c75eee19b14d18a036ae->enter($__internal_2615290f9a71eb3d377023230be00a0e1c06196b4178c75eee19b14d18a036ae_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.txt.twig"));
 
         // line 1
         echo "Oops! An Error Occurred
@@ -33,7 +33,7 @@ Something is broken. Please let us know what you were doing when this error occu
 We will fix it as soon as possible. Sorry for any inconvenience caused.
 ";
         
-        $__internal_56ae157ce2cd66e6b3c42218aceeba81a58474372f0fb718b84405da73a31ba4->leave($__internal_56ae157ce2cd66e6b3c42218aceeba81a58474372f0fb718b84405da73a31ba4_prof);
+        $__internal_2615290f9a71eb3d377023230be00a0e1c06196b4178c75eee19b14d18a036ae->leave($__internal_2615290f9a71eb3d377023230be00a0e1c06196b4178c75eee19b14d18a036ae_prof);
 
     }
 
@@ -69,6 +69,6 @@ The server returned a \"{{ status_code }} {{ status_text }}\".
 
 Something is broken. Please let us know what you were doing when this error occurred.
 We will fix it as soon as possible. Sorry for any inconvenience caused.
-", "TwigBundle:Exception:error.txt.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.txt.twig");
+", "TwigBundle:Exception:error.txt.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/error.txt.twig");
     }
 }

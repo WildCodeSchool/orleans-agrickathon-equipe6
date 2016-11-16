@@ -15,8 +15,8 @@ class __TwigTemplate_b64f9094652a9e1b63db14969ec79dd646bac8f07a198bbd2c5382685d0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_60d38b44caeb0599d491198e8916578101bbf564814978a665bcc4f3b2c0e9dc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_60d38b44caeb0599d491198e8916578101bbf564814978a665bcc4f3b2c0e9dc->enter($__internal_60d38b44caeb0599d491198e8916578101bbf564814978a665bcc4f3b2c0e9dc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Group:list_content.html.twig"));
+        $__internal_ed15398d00ad7ff7cfa44520424afe6939a0d96c4d864062da2bd9353cda13d8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ed15398d00ad7ff7cfa44520424afe6939a0d96c4d864062da2bd9353cda13d8->enter($__internal_ed15398d00ad7ff7cfa44520424afe6939a0d96c4d864062da2bd9353cda13d8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Group:list_content.html.twig"));
 
         // line 1
         echo "<div class=\"fos_user_group_list\">
@@ -42,7 +42,7 @@ class __TwigTemplate_b64f9094652a9e1b63db14969ec79dd646bac8f07a198bbd2c5382685d0
 </div>
 ";
         
-        $__internal_60d38b44caeb0599d491198e8916578101bbf564814978a665bcc4f3b2c0e9dc->leave($__internal_60d38b44caeb0599d491198e8916578101bbf564814978a665bcc4f3b2c0e9dc_prof);
+        $__internal_ed15398d00ad7ff7cfa44520424afe6939a0d96c4d864062da2bd9353cda13d8->leave($__internal_ed15398d00ad7ff7cfa44520424afe6939a0d96c4d864062da2bd9353cda13d8_prof);
 
     }
 
@@ -78,6 +78,6 @@ class __TwigTemplate_b64f9094652a9e1b63db14969ec79dd646bac8f07a198bbd2c5382685d0
     {% endfor %}
     </ul>
 </div>
-", "FOSUserBundle:Group:list_content.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Group/list_content.html.twig");
+", "FOSUserBundle:Group:list_content.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Group/list_content.html.twig");
     }
 }

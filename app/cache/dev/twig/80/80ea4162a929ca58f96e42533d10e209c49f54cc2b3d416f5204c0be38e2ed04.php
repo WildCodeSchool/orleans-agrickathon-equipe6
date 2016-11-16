@@ -21,20 +21,20 @@ class __TwigTemplate_441985208e054d7a8a74a3ea1e401d0ad7b7ff5de13b84e5795f7581be3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_05d988bc228b49d6d1c680cba0db71f6f796c356dbc690fb347d9f878f1f9138 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_05d988bc228b49d6d1c680cba0db71f6f796c356dbc690fb347d9f878f1f9138->enter($__internal_05d988bc228b49d6d1c680cba0db71f6f796c356dbc690fb347d9f878f1f9138_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Profile/Registration:confirmed.html.twig"));
+        $__internal_4b98afbcb375349f6a403e8a3c9dc97057d47a3ca97a5bc4ecdf186d2262bbd8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_4b98afbcb375349f6a403e8a3c9dc97057d47a3ca97a5bc4ecdf186d2262bbd8->enter($__internal_4b98afbcb375349f6a403e8a3c9dc97057d47a3ca97a5bc4ecdf186d2262bbd8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle:Profile/Registration:confirmed.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_05d988bc228b49d6d1c680cba0db71f6f796c356dbc690fb347d9f878f1f9138->leave($__internal_05d988bc228b49d6d1c680cba0db71f6f796c356dbc690fb347d9f878f1f9138_prof);
+        $__internal_4b98afbcb375349f6a403e8a3c9dc97057d47a3ca97a5bc4ecdf186d2262bbd8->leave($__internal_4b98afbcb375349f6a403e8a3c9dc97057d47a3ca97a5bc4ecdf186d2262bbd8_prof);
 
     }
 
     // line 3
     public function block_content($context, array $blocks = array())
     {
-        $__internal_920d8455b640a022685e81740aff549aacfdee89f571dae2fd322be4f318a4f8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_920d8455b640a022685e81740aff549aacfdee89f571dae2fd322be4f318a4f8->enter($__internal_920d8455b640a022685e81740aff549aacfdee89f571dae2fd322be4f318a4f8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle:Profile/Registration:confirmed.html.twig"));
+        $__internal_f11652863a150a14bb58b85dd7c82a79140ccbc4dc3f5f1c211f43294e3f5dfc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f11652863a150a14bb58b85dd7c82a79140ccbc4dc3f5f1c211f43294e3f5dfc->enter($__internal_f11652863a150a14bb58b85dd7c82a79140ccbc4dc3f5f1c211f43294e3f5dfc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle:Profile/Registration:confirmed.html.twig"));
 
         // line 4
         echo "    <div class=\"row\">
@@ -77,7 +77,7 @@ class __TwigTemplate_441985208e054d7a8a74a3ea1e401d0ad7b7ff5de13b84e5795f7581be3
 
 ";
         
-        $__internal_920d8455b640a022685e81740aff549aacfdee89f571dae2fd322be4f318a4f8->leave($__internal_920d8455b640a022685e81740aff549aacfdee89f571dae2fd322be4f318a4f8_prof);
+        $__internal_f11652863a150a14bb58b85dd7c82a79140ccbc4dc3f5f1c211f43294e3f5dfc->leave($__internal_f11652863a150a14bb58b85dd7c82a79140ccbc4dc3f5f1c211f43294e3f5dfc_prof);
 
     }
 
@@ -126,6 +126,6 @@ class __TwigTemplate_441985208e054d7a8a74a3ea1e401d0ad7b7ff5de13b84e5795f7581be3
         </div>
     </div>
 
-{% endblock %}", "SfWebAppFrontOfficeBundle:Profile/Registration:confirmed.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/src/SfWebApp/FrontOfficeBundle/Resources/views/Profile/Registration/confirmed.html.twig");
+{% endblock %}", "SfWebAppFrontOfficeBundle:Profile/Registration:confirmed.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/Profile/Registration/confirmed.html.twig");
     }
 }

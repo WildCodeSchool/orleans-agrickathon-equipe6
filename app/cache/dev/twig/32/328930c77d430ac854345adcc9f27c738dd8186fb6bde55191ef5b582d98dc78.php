@@ -15,8 +15,8 @@ class __TwigTemplate_ec7d7ddf16736f7e05c9cd073395e921e864dda03995f37913a5437a2e2
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_41ea0e643fbeffa5ba9b2e767e10c761e5b97b2626d2b0269da71feef04342ab = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_41ea0e643fbeffa5ba9b2e767e10c761e5b97b2626d2b0269da71feef04342ab->enter($__internal_41ea0e643fbeffa5ba9b2e767e10c761e5b97b2626d2b0269da71feef04342ab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/choice_widget_collapsed.html.php"));
+        $__internal_52f18626fe6363f7707a7b988e4a1e153265b364472182ab3cb5664ddc84301f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_52f18626fe6363f7707a7b988e4a1e153265b364472182ab3cb5664ddc84301f->enter($__internal_52f18626fe6363f7707a7b988e4a1e153265b364472182ab3cb5664ddc84301f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/choice_widget_collapsed.html.php"));
 
         // line 1
         echo "<select
@@ -39,7 +39,7 @@ class __TwigTemplate_ec7d7ddf16736f7e05c9cd073395e921e864dda03995f37913a5437a2e2
 </select>
 ";
         
-        $__internal_41ea0e643fbeffa5ba9b2e767e10c761e5b97b2626d2b0269da71feef04342ab->leave($__internal_41ea0e643fbeffa5ba9b2e767e10c761e5b97b2626d2b0269da71feef04342ab_prof);
+        $__internal_52f18626fe6363f7707a7b988e4a1e153265b364472182ab3cb5664ddc84301f->leave($__internal_52f18626fe6363f7707a7b988e4a1e153265b364472182ab3cb5664ddc84301f_prof);
 
     }
 
@@ -81,6 +81,6 @@ class __TwigTemplate_ec7d7ddf16736f7e05c9cd073395e921e864dda03995f37913a5437a2e2
     <?php endif ?>
     <?php echo \$view['form']->block(\$form, 'choice_widget_options', array('choices' => \$choices)) ?>
 </select>
-", "@Framework/Form/choice_widget_collapsed.html.php", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/choice_widget_collapsed.html.php");
+", "@Framework/Form/choice_widget_collapsed.html.php", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/choice_widget_collapsed.html.php");
     }
 }

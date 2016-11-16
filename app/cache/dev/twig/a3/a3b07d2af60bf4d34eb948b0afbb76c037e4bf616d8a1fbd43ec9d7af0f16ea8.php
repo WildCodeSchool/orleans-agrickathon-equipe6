@@ -23,45 +23,45 @@ class __TwigTemplate_78e881ee7370eee31321e20363101b41b666351f1c5fca6198b803f9bfe
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_5e3351ea01e15b9e5654307eb4bf7839ccb3e7bc6dd49547f54dbe3f8b965dc6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5e3351ea01e15b9e5654307eb4bf7839ccb3e7bc6dd49547f54dbe3f8b965dc6->enter($__internal_5e3351ea01e15b9e5654307eb4bf7839ccb3e7bc6dd49547f54dbe3f8b965dc6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle::layout-login.html.twig"));
+        $__internal_4807bdd5d422daf059d27f637699f1c75c50b16539ee158481c5def6d48b7f88 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_4807bdd5d422daf059d27f637699f1c75c50b16539ee158481c5def6d48b7f88->enter($__internal_4807bdd5d422daf059d27f637699f1c75c50b16539ee158481c5def6d48b7f88_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "SfWebAppFrontOfficeBundle::layout-login.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_5e3351ea01e15b9e5654307eb4bf7839ccb3e7bc6dd49547f54dbe3f8b965dc6->leave($__internal_5e3351ea01e15b9e5654307eb4bf7839ccb3e7bc6dd49547f54dbe3f8b965dc6_prof);
+        $__internal_4807bdd5d422daf059d27f637699f1c75c50b16539ee158481c5def6d48b7f88->leave($__internal_4807bdd5d422daf059d27f637699f1c75c50b16539ee158481c5def6d48b7f88_prof);
 
     }
 
     // line 3
     public function block_header($context, array $blocks = array())
     {
-        $__internal_5cd3208173d9335412a625123d140849d90a5c46ea1aeb826b131ff00eb0bd4c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5cd3208173d9335412a625123d140849d90a5c46ea1aeb826b131ff00eb0bd4c->enter($__internal_5cd3208173d9335412a625123d140849d90a5c46ea1aeb826b131ff00eb0bd4c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle::layout-login.html.twig"));
+        $__internal_be58ee015f07c48d4577c7f60b5af9a2fe791167183b21886724029e332cf902 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_be58ee015f07c48d4577c7f60b5af9a2fe791167183b21886724029e332cf902->enter($__internal_be58ee015f07c48d4577c7f60b5af9a2fe791167183b21886724029e332cf902_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle::layout-login.html.twig"));
 
         
-        $__internal_5cd3208173d9335412a625123d140849d90a5c46ea1aeb826b131ff00eb0bd4c->leave($__internal_5cd3208173d9335412a625123d140849d90a5c46ea1aeb826b131ff00eb0bd4c_prof);
+        $__internal_be58ee015f07c48d4577c7f60b5af9a2fe791167183b21886724029e332cf902->leave($__internal_be58ee015f07c48d4577c7f60b5af9a2fe791167183b21886724029e332cf902_prof);
 
     }
 
     // line 6
     public function block_content($context, array $blocks = array())
     {
-        $__internal_dbff3900187e0f9f6e58894b0da7300939eca924a3f96e66e0587e321eb99c15 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_dbff3900187e0f9f6e58894b0da7300939eca924a3f96e66e0587e321eb99c15->enter($__internal_dbff3900187e0f9f6e58894b0da7300939eca924a3f96e66e0587e321eb99c15_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle::layout-login.html.twig"));
+        $__internal_2f4024c3039944862dce287b818041b412c992e9eebbdea9beaf23d1c001252e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2f4024c3039944862dce287b818041b412c992e9eebbdea9beaf23d1c001252e->enter($__internal_2f4024c3039944862dce287b818041b412c992e9eebbdea9beaf23d1c001252e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle::layout-login.html.twig"));
 
         
-        $__internal_dbff3900187e0f9f6e58894b0da7300939eca924a3f96e66e0587e321eb99c15->leave($__internal_dbff3900187e0f9f6e58894b0da7300939eca924a3f96e66e0587e321eb99c15_prof);
+        $__internal_2f4024c3039944862dce287b818041b412c992e9eebbdea9beaf23d1c001252e->leave($__internal_2f4024c3039944862dce287b818041b412c992e9eebbdea9beaf23d1c001252e_prof);
 
     }
 
     // line 9
     public function block_footer($context, array $blocks = array())
     {
-        $__internal_0a49aea8d8d61cff292a9c13b35fe60b76a9088a786cfb3d2dc2794c4956ad6a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0a49aea8d8d61cff292a9c13b35fe60b76a9088a786cfb3d2dc2794c4956ad6a->enter($__internal_0a49aea8d8d61cff292a9c13b35fe60b76a9088a786cfb3d2dc2794c4956ad6a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle::layout-login.html.twig"));
+        $__internal_ba3b9ffebdf686a48f71036fe8a11799c0752241f2fade7d8eb652fe4d3faef7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ba3b9ffebdf686a48f71036fe8a11799c0752241f2fade7d8eb652fe4d3faef7->enter($__internal_ba3b9ffebdf686a48f71036fe8a11799c0752241f2fade7d8eb652fe4d3faef7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "SfWebAppFrontOfficeBundle::layout-login.html.twig"));
 
         
-        $__internal_0a49aea8d8d61cff292a9c13b35fe60b76a9088a786cfb3d2dc2794c4956ad6a->leave($__internal_0a49aea8d8d61cff292a9c13b35fe60b76a9088a786cfb3d2dc2794c4956ad6a_prof);
+        $__internal_ba3b9ffebdf686a48f71036fe8a11799c0752241f2fade7d8eb652fe4d3faef7->leave($__internal_ba3b9ffebdf686a48f71036fe8a11799c0752241f2fade7d8eb652fe4d3faef7_prof);
 
     }
 
@@ -99,6 +99,6 @@ class __TwigTemplate_78e881ee7370eee31321e20363101b41b666351f1c5fca6198b803f9bfe
 {% endblock %}
 
 {% block footer %}
-{% endblock %}", "SfWebAppFrontOfficeBundle::layout-login.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/src/SfWebApp/FrontOfficeBundle/Resources/views/layout-login.html.twig");
+{% endblock %}", "SfWebAppFrontOfficeBundle::layout-login.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/src/SfWebApp/FrontOfficeBundle/Resources/views/layout-login.html.twig");
     }
 }

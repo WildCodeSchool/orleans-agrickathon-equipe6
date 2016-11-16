@@ -106,7 +106,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         // sf_web_app_cms_homepage
-        if (rtrim($pathinfo, '/') === '/cms') {
+        if (rtrim($pathinfo, '/') === '/homepage') {
             if (substr($pathinfo, -1) !== '/') {
                 return $this->redirect($pathinfo.'/', 'sf_web_app_cms_homepage');
             }
@@ -115,7 +115,7 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
         }
 
         // sf_web_app_front_office_homepage
-        if (rtrim($pathinfo, '/') === '') {
+        if (rtrim($pathinfo, '/') === '/frontoffice') {
             if (substr($pathinfo, -1) !== '/') {
                 return $this->redirect($pathinfo.'/', 'sf_web_app_front_office_homepage');
             }

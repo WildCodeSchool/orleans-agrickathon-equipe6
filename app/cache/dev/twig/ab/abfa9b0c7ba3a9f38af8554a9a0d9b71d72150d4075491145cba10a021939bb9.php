@@ -21,20 +21,20 @@ class __TwigTemplate_bc59bb0f3264f0219e27cf17d67c470ae61888c1d74dfeb39afec4e51fe
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_c52ce98f0d21b361754029444a63f0e1cd832cb5705878584ee6364b29eeca33 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c52ce98f0d21b361754029444a63f0e1cd832cb5705878584ee6364b29eeca33->enter($__internal_c52ce98f0d21b361754029444a63f0e1cd832cb5705878584ee6364b29eeca33_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login.html.twig"));
+        $__internal_d0e277783bb6325496bed7e3fb1c3c1e38f24b25abc9cd0fad808801891163d5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d0e277783bb6325496bed7e3fb1c3c1e38f24b25abc9cd0fad808801891163d5->enter($__internal_d0e277783bb6325496bed7e3fb1c3c1e38f24b25abc9cd0fad808801891163d5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_c52ce98f0d21b361754029444a63f0e1cd832cb5705878584ee6364b29eeca33->leave($__internal_c52ce98f0d21b361754029444a63f0e1cd832cb5705878584ee6364b29eeca33_prof);
+        $__internal_d0e277783bb6325496bed7e3fb1c3c1e38f24b25abc9cd0fad808801891163d5->leave($__internal_d0e277783bb6325496bed7e3fb1c3c1e38f24b25abc9cd0fad808801891163d5_prof);
 
     }
 
     // line 3
     public function block_fos_user_content($context, array $blocks = array())
     {
-        $__internal_5f3a73cb5eafaeac97d1e5e9728e92ade4ff49202e88450cbe258ded9da63ff2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5f3a73cb5eafaeac97d1e5e9728e92ade4ff49202e88450cbe258ded9da63ff2->enter($__internal_5f3a73cb5eafaeac97d1e5e9728e92ade4ff49202e88450cbe258ded9da63ff2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "@FOSUser/Security/login.html.twig"));
+        $__internal_672b3d2ac2e14ca8fc7ff1eaa9d49d835369c7ff603a136478ef949edb588850 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_672b3d2ac2e14ca8fc7ff1eaa9d49d835369c7ff603a136478ef949edb588850->enter($__internal_672b3d2ac2e14ca8fc7ff1eaa9d49d835369c7ff603a136478ef949edb588850_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "@FOSUser/Security/login.html.twig"));
 
         // line 4
         if ((isset($context["error"]) ? $context["error"] : $this->getContext($context, "error"))) {
@@ -83,7 +83,7 @@ class __TwigTemplate_bc59bb0f3264f0219e27cf17d67c470ae61888c1d74dfeb39afec4e51fe
 </form>
 ";
         
-        $__internal_5f3a73cb5eafaeac97d1e5e9728e92ade4ff49202e88450cbe258ded9da63ff2->leave($__internal_5f3a73cb5eafaeac97d1e5e9728e92ade4ff49202e88450cbe258ded9da63ff2_prof);
+        $__internal_672b3d2ac2e14ca8fc7ff1eaa9d49d835369c7ff603a136478ef949edb588850->leave($__internal_672b3d2ac2e14ca8fc7ff1eaa9d49d835369c7ff603a136478ef949edb588850_prof);
 
     }
 
@@ -134,6 +134,6 @@ class __TwigTemplate_bc59bb0f3264f0219e27cf17d67c470ae61888c1d74dfeb39afec4e51fe
     <input type=\"submit\" id=\"_submit\" name=\"_submit\" value=\"{{ 'security.login.submit'|trans({}, 'FOSUserBundle') }}\" />
 </form>
 {% endblock fos_user_content %}
-", "@FOSUser/Security/login.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Security/login.html.twig");
+", "@FOSUser/Security/login.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Security/login.html.twig");
     }
 }

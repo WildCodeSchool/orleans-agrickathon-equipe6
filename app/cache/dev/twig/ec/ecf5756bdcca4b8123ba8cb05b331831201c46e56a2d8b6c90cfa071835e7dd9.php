@@ -15,8 +15,8 @@ class __TwigTemplate_d7128fb8fc5d677df36c192956231a64edfe1fcd633e280aab39315e997
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_46991e3905eab161b1e8367b259a8497f2b65f9ec8df8c304b94cc483611dd98 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_46991e3905eab161b1e8367b259a8497f2b65f9ec8df8c304b94cc483611dd98->enter($__internal_46991e3905eab161b1e8367b259a8497f2b65f9ec8df8c304b94cc483611dd98_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.txt.twig"));
+        $__internal_81f42db681f7013522ba896f30795714a584780e99bfd24201d5750f3a5739af = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_81f42db681f7013522ba896f30795714a584780e99bfd24201d5750f3a5739af->enter($__internal_81f42db681f7013522ba896f30795714a584780e99bfd24201d5750f3a5739af_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.txt.twig"));
 
         // line 1
         echo "[exception] ";
@@ -50,7 +50,7 @@ class __TwigTemplate_d7128fb8fc5d677df36c192956231a64edfe1fcd633e280aab39315e997
         unset($context['_seq'], $context['_iterated'], $context['i'], $context['e'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         
-        $__internal_46991e3905eab161b1e8367b259a8497f2b65f9ec8df8c304b94cc483611dd98->leave($__internal_46991e3905eab161b1e8367b259a8497f2b65f9ec8df8c304b94cc483611dd98_prof);
+        $__internal_81f42db681f7013522ba896f30795714a584780e99bfd24201d5750f3a5739af->leave($__internal_81f42db681f7013522ba896f30795714a584780e99bfd24201d5750f3a5739af_prof);
 
     }
 
@@ -86,6 +86,6 @@ class __TwigTemplate_d7128fb8fc5d677df36c192956231a64edfe1fcd633e280aab39315e997
 {% include '@Twig/Exception/traces.txt.twig' with { 'exception': e } only %}
 
 {% endfor %}
-", "TwigBundle:Exception:exception.txt.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.txt.twig");
+", "TwigBundle:Exception:exception.txt.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.txt.twig");
     }
 }

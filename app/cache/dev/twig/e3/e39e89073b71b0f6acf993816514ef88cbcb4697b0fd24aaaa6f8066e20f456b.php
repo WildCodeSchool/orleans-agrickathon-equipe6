@@ -15,8 +15,8 @@ class __TwigTemplate_3af0cb6a47ec1cf93defe4557c0a80725e59cbf951393eb1a1504bc2ea0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_aa5e1bb2ca0698bf119928539f9affc45c0d047b5529df5f36e7dd2913b75884 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_aa5e1bb2ca0698bf119928539f9affc45c0d047b5529df5f36e7dd2913b75884->enter($__internal_aa5e1bb2ca0698bf119928539f9affc45c0d047b5529df5f36e7dd2913b75884_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.html.twig"));
+        $__internal_0cd013e660832a5cfee2cd80bf44b0c7f4a7a2e1ed8920270d707489ec0ac0fe = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0cd013e660832a5cfee2cd80bf44b0c7f4a7a2e1ed8920270d707489ec0ac0fe->enter($__internal_0cd013e660832a5cfee2cd80bf44b0c7f4a7a2e1ed8920270d707489ec0ac0fe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.html.twig"));
 
         // line 1
         echo "<div class=\"block-exception\">
@@ -235,7 +235,7 @@ class __TwigTemplate_3af0cb6a47ec1cf93defe4557c0a80725e59cbf951393eb1a1504bc2ea0
 //]]></script>
 ";
         
-        $__internal_aa5e1bb2ca0698bf119928539f9affc45c0d047b5529df5f36e7dd2913b75884->leave($__internal_aa5e1bb2ca0698bf119928539f9affc45c0d047b5529df5f36e7dd2913b75884_prof);
+        $__internal_0cd013e660832a5cfee2cd80bf44b0c7f4a7a2e1ed8920270d707489ec0ac0fe->leave($__internal_0cd013e660832a5cfee2cd80bf44b0c7f4a7a2e1ed8920270d707489ec0ac0fe_prof);
 
     }
 
@@ -387,6 +387,6 @@ class __TwigTemplate_3af0cb6a47ec1cf93defe4557c0a80725e59cbf951393eb1a1504bc2ea0
         icon2.style.display = display1;
     }
 //]]></script>
-", "TwigBundle:Exception:exception.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/OpenAgriFood/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.html.twig");
+", "TwigBundle:Exception:exception.html.twig", "/home/wilder6/Documents/Hackathons/Agrickathon_2016/orleans-agrickathon-equipe6/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.html.twig");
     }
 }
